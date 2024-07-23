@@ -1,0 +1,35 @@
+﻿{
+"extreme": [
+  { 
+    "fightName": "Worqor Lar Dor",
+    "bossName": "Valigarmanda",
+    "imgPath": "/ffxiv/dawntrail/Worqor_Lar_Dor.png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=D37pzCpyhmo"
+      },
+      {
+        "name": "Joonbob's Diagram Guide",
+        "url": "https://www.youtube.com/watch?v=k9wewnt86DU"
+      }
+    ]
+  },
+  {
+    "fightName": "Everkeep",
+    "bossName": "Zoraal Ja",
+    "imgPath": "/ffxiv/dawntrail/Everkeep.png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=HuMNEyruE6k"
+      },
+      {
+        "name": "Joonbob's Diagram Guide",
+        "url": "https://www.youtube.com/watch?v=AxDDWGSbdPw"
+      }
+    ]
+  }
+
+]
+}
