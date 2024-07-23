@@ -1,0 +1,122 @@
+﻿{
+"extreme": [
+  { 
+    "fightName": "The Minstrel's Ballad: Zodiark's Fall",
+    "bossName": "Zodiark",
+    "imgPath": "/ffxiv/endwalker/The_Minstrel's_Ballad_Zodiark's_Fall.png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=D37pzCpyhmo"
+      },
+      {
+        "name": "Joonbob's Diagram Guide",
+        "url": "https://www.youtube.com/watch?v=k9wewnt86DU"
+      }
+    ]
+  },
+  {
+    "fightName": "The Minstrel's Ballad: Hydaelyn's Call",
+    "bossName": "Hydaelyn",
+    "imgPath": "/ffxiv/endwalker/The_Minstrel's_Ballad_Hydaelyn's_Call.png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=HuMNEyruE6k"
+      },
+      {
+        "name": "Joonbob's Diagram Guide",
+        "url": "https://www.youtube.com/watch?v=AxDDWGSbdPw"
+      }
+    ]
+  },
+  {
+    "fightName": "The Minstrel's Ballad: Endsinger's Aria",
+    "bossName": "The Endsinger",
+    "imgPath": "/ffxiv/endwalker/The_Minstrel's_Ballad_The_Endsinger's_Aria.png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=2kXwfM9vVTA"
+      },
+      {
+        "name": "Hector Lectures",
+        "url": "https://www.youtube.com/watch?v=AWtNrPfzp28"
+      }
+    ]
+  },
+  {
+    "fightName": "Storm's Crown (Extreme)",
+    "bossName": "Barbariccia",
+    "imgPath": "/ffxiv/endwalker/Storm's_Crown_(Extreme).png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=zxtYTfWw5K0"
+      },
+      {
+        "name": "Hector Lectures",
+        "url": "https://www.youtube.com/watch?v=rytckyIRiw8"
+      }
+    ]
+  },
+  {
+    "fightName": "Mount Ordeals (Extreme)",
+    "bossName": "Rubicante",
+    "imgPath": "/ffxiv/endwalker/Mount_Ordeals_(Extreme).png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=iEkVyBiuJ0c"
+      },
+      {
+        "name": "Hector Lectures",
+        "url": "https://www.youtube.com/watch?v=1_v6v2nmVJ0"
+      },
+      {
+        "name": "Dumb Ordeals - Extremely Quick Guide",
+        "url": "https://www.youtube.com/watch?v=oWsm6MZgXxI"
+      }
+    ]
+  },
+  {
+    "fightName": "The Voidcast Dais (Extreme)",
+    "bossName": "Golbez",
+    "imgPath": "/ffxiv/endwalker/The_Voidcast_Dais_(Extreme).png",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=rbBXJJSIqDc"
+      },
+      {
+        "name": "Joonbob's Pickup Guide",
+        "url": "https://www.youtube.com/watch?v=LkuaYFbcTEY"
+      },
+      {
+        "name": "Joonbob's Gale Sphere 2 Guide",
+        "url": "https://www.youtube.com/watch?v=RkMB36dtkJA"
+      },
+      {
+        "name": "Joonbob's Double Meteor Guide",
+        "url": "https://www.youtube.com/watch?v=0GxicHeLjwE"
+      }
+    ]
+  },
+  {
+    "fightName": "The Abyssal Fracture (Extreme)",
+    "bossName": "Zeromus",
+    "imgPath": "/ffxiv/endwalker/The_Abyssal_Fracture_(Extreme).png",
+    "youTubeLinks": [
+      {
+        "name": "Guide video from yukizuri",
+        "url": "https://www.youtube.com/watch?v=X_1XBcSFFO0"
+      },
+      {
+        "name": "Big Kobe's Diagram Guide",
+        "url": "https://www.youtube.com/watch?v=3bWCM5cSxZM"
+      }
+    ]
+  }
+
+]
+}
