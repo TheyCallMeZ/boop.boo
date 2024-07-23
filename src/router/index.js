@@ -29,6 +29,12 @@ const routes = [
     beforeEnter() {
       window.location.href = "https://discord.gg/neezmXmvU8";
     },
+    {
+    path: "/bma",
+    name: "Blue Mages Anonymous Discord",
+    beforeEnter() {
+      window.location.href = "https://discord.gg/K36EMh67SH";
+    },
   },
 ];
 
