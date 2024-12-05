@@ -29,7 +29,21 @@
         "url": "https://www.youtube.com/watch?v=AxDDWGSbdPw"
       }
     ]
+  },
+  {
+    "fightName": "Sphene's Burden",
+    "bossName": "Queen Eternal",
+    "imgPath": "/ffxiv/dawntrail/The_Minstrels_Ballad_Sphenes_Burden.png",
+    "youTubeLinks": [
+      {
+        "name": "Kobe's Classroom",
+        "url": "https://www.youtube.com/watch?v=wgnXFCx_7Eo"
+      },
+      {
+        "name": "Hector Lectures",
+        "url": "https://www.youtube.com/watch?v=yfvfhuEEMCY"
+      }
+    ]
   }
-
 ]
 }
