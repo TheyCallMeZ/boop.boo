@@ -1,0 +1,191 @@
+[
+  {
+    "ID": "3c10d9a903963c280818f2eb3d827499f05ab5bd",
+    "Name": "Alte Roite",
+    "Expansion": "Stormblood",
+    "Fight": "Deltascape V4.0 (Savage)",
+    "Content": "Savage 2"
+  },
+  {
+    "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
+    "Name": "Ramuh",
+    "Expansion": "Shadowbringers",
+    "Fight": "Eden\u0027s Verse: Refulgence (Savage)",
+    "Content": "Savage 2"
+  },
+  {
+    "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
+    "Name": "Gobwalker",
+    "Expansion": "Heavensward",
+    "Fight": "Alexander - The Burden of the Father (Savage)",
+    "Content": "Savage 2"
+  },
+  {
+    "ID": "a996e660815c651e92283e29e1ff9da11ab0ebb8",
+    "Name": "Model O",
+    "Expansion": "Stormblood",
+    "Fight": "Alphascape V4.0 (Savage)",
+    "Content": "Savage 3"
+  },
+  {
+    "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
+    "Name": "Monowheel S1",
+    "Expansion": "Dawntrail",
+    "Fight": "AAC Light-heavyweight M4 (Savage)",
+    "Content": "Savage 1"
+  },
+  {
+    "ID": "859066dbd978b16beac4d0995aeb2c4945a19fa5",
+    "Name": "Arrhidaeus",
+    "Expansion": "Heavensward",
+    "Fight": "Alexander - The Soul of the Creator (Savage)",
+    "Content": "Savage 3"
+  },
+  {
+    "ID": "8ce5861b457c93d2d4ceed0ff359b4a55501b459",
+    "Name": "Air Force",
+    "Expansion": "Stormblood",
+    "Fight": "Sigmascape V4.0 (Savage)",
+    "Content": "Savage 1"
+  },
+  {
+    "ID": "5551fb1233696288c813ecbc70dd26ff9532eb25",
+    "Name": "Skyslipper",
+    "Expansion": "Shadowbringers",
+    "Fight": "Eden\u0027s Gate: Sepulture (Savage)",
+    "Content": "Savage 1"
+  },
+  {
+    "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
+    "Name": "Eden",
+    "Expansion": "Shadowbringers",
+    "Fight": "Eden\u0027s Promise: Eternity (Savage)",
+    "Content": "Savage 3"
+  },
+  {
+    "ID": "17c2d16b412fb82161b7ad02842162642d70d9df",
+    "Name": "White Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX1 - The Limitless Blue (Extreme)",
+    "Content": "EX1"
+  },
+  {
+    "ID": "82a3e8eb3e9e1d321214a66ddfaf93e2a2927ded",
+    "Name": "Rose Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX2 - Thok ast Thok (Extreme)",
+    "Content": "EX2"
+  },
+  {
+    "ID": "16a4d1ad4915dabab8ad8279e6a2ee38caee878e",
+    "Name": "Round Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX3 - The Minstrel\u0027s Ballad: Thordan\u0027s Reign",
+    "Content": "EX3"
+  },
+  {
+    "ID": "665c5b647f8b848ae6e9a4e4748f2efabb3e57df",
+    "Name": "Warring Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX5 - Containment Bay S1T7 (Extreme)",
+    "Content": "EX5"
+  },
+  {
+    "ID": "8ef4673ed1f4166f1a6a3d799bf71c8cf8ca0efe",
+    "Name": "Dark Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX4 - The Minstrel\u0027s Ballad: Nidhogg\u0027s Rage",
+    "Content": "EX4"
+  },
+  {
+    "ID": "65b746dd746a4cd4880ac84af86ebb49b6805b5c",
+    "Name": "Sophic Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX6 - Containment Bay P1T6 (Extreme)",
+    "Content": "EX6"
+  },
+  {
+    "ID": "eb428d8a1f103fedb753c617222176f77d68635e",
+    "Name": "Demonic Lanner",
+    "Expansion": "Heavensward",
+    "Fight": "EX7 - Containment Bay Z1T9 (Extreme)",
+    "Content": "EX7"
+  },
+  {
+    "ID": "158c677caf412494e733f8151f47678abedde60b",
+    "Name": "Blissful Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX2 - Emanation (Extreme)",
+    "Content": "EX2"
+  },
+  {
+    "ID": "b6d26f816ea0c3f1850bb8acc0e08869fc954e3c",
+    "Name": "Reveling Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX1 - The Pool of Tribute (Extreme)",
+    "Content": "EX1"
+  },
+  {
+    "ID": "ebd93a0e11df428058bae0e08f217c303c194980",
+    "Name": "Legendary Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX3 - The Minstrel\u0027s Ballad: Shinryu\u0027s Domain",
+    "Content": "EX3"
+  },
+  {
+    "ID": "a704b4ca201d6ea098edcaa17b6b949fc2f63dfc",
+    "Name": "Auspicious Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX5 - The Jade Stoa (Extreme)",
+    "Content": "EX5"
+  },
+  {
+    "ID": "6d31dfed354f8dabdf7fde9e4d401303689055be",
+    "Name": "Lunar Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX4 - The Minstrel\u0027s Ballad: Tsukuyomi\u0027s Pain",
+    "Content": "EX4"
+  },
+  {
+    "ID": "21a62dbecd20988d7d00651414572145a56410a3",
+    "Name": "Euphonious Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX6 - Hells\u0027 Kier (Extreme)",
+    "Content": "EX6"
+  },
+  {
+    "ID": "e01f10ad7f8ecfbce248991e8f22b7ca4d84cbbc",
+    "Name": "Hallowed Kamuy",
+    "Expansion": "Stormblood",
+    "Fight": "EX7 - The Wreath of Snakes (Extreme)",
+    "Content": "EX7"
+  },
+  {
+    "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
+    "Name": "Lynx Of Eternal Darkness",
+    "Expansion": "Endwalker",
+    "Fight": "EX1 - Zodiark",
+    "Content": "EX1"
+  },
+  {
+    "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
+    "Name": "Lynx Of Divine Light",
+    "Expansion": "Endwalker",
+    "Fight": "EX2 - Hydaelyn",
+    "Content": "EX2"
+  },
+  {
+    "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
+    "Name": "Lynx Of Righteous Fire",
+    "Expansion": "Endwalker",
+    "Fight": "EX5 - Rubicante",
+    "Content": "EX5"
+  },
+  {
+    "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
+    "Name": "Wings Of Eternity",
+    "Expansion": "Dawntrail",
+    "Fight": "EX3 - Minstrel\u0027s Ballad: Sphene\u0027s Burden",
+    "Content": "EX3"
+  }
+]

@@ -42,6 +42,16 @@ const routes = [
     name: "Final Fantasy XIV Extreme Links",
     component: () => import("@/components/ffxiv_fights.vue"),
   },
+  {
+    path: "/friday",
+    name: "Friday Call Links",
+    component: () => import("@/components/FridayCallLinks.vue"),
+  },
+  {
+    path: "/static",
+    name: "FFXIV Static Mount Checklist",
+    component: () => import("@/components/StaticMounts.vue"),
+  },
 ];
 
 const router = createRouter({
