@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build-old": "vue-cli-service build",
     "lint-old": "vue-cli-service lint",
-    "postbuild": "copy .\\dist\\index.html .\\dist\\404.html",
+    "postbuild": "node scripts/postbuild.js",
     "lint": "eslint . --ext .js,.vue --fix",
     "build": "npm run lint && vue-cli-service build"
   },
