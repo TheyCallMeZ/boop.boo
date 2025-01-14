@@ -28,13 +28,6 @@
     "Content": "Savage 3"
   },
   {
-    "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
-    "Name": "Monowheel S1",
-    "Expansion": "Dawntrail",
-    "Fight": "AAC Light-heavyweight M4 (Savage)",
-    "Content": "Savage 1"
-  },
-  {
     "ID": "859066dbd978b16beac4d0995aeb2c4945a19fa5",
     "Name": "Arrhidaeus",
     "Expansion": "Heavensward",
@@ -159,33 +152,5 @@
     "Expansion": "Stormblood",
     "Fight": "EX7 - The Wreath of Snakes (Extreme)",
     "Content": "EX7"
-  },
-  {
-    "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
-    "Name": "Lynx Of Eternal Darkness",
-    "Expansion": "Endwalker",
-    "Fight": "EX1 - Zodiark",
-    "Content": "EX1"
-  },
-  {
-    "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
-    "Name": "Lynx Of Divine Light",
-    "Expansion": "Endwalker",
-    "Fight": "EX2 - Hydaelyn",
-    "Content": "EX2"
-  },
-  {
-    "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
-    "Name": "Lynx Of Righteous Fire",
-    "Expansion": "Endwalker",
-    "Fight": "EX5 - Rubicante",
-    "Content": "EX5"
-  },
-  {
-    "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
-    "Name": "Wings Of Eternity",
-    "Expansion": "Dawntrail",
-    "Fight": "EX3 - Minstrel\u0027s Ballad: Sphene\u0027s Burden",
-    "Content": "EX3"
   }
 ]

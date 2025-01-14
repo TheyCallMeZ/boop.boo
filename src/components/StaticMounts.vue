@@ -53,7 +53,7 @@ import rurumei from "@/assets/data/static/Rurumei_Wyntesol_found_mounts.json";
 import zhoesaph from "@/assets/data/static/Zhoesaph_Edeline_found_mounts.json";
 import minerva from "@/assets/data/static/Miss_Minerva_found_mounts.json";
 import anthra from "@/assets/data/static/Anthra_Aetherium_found_mounts.json";
-import claire from "@/assets/data/static/Claire_Fierce_found_mounts.json";
+import carbear from "@/assets/data/static/Carbear_Dragonheart_found_mounts.json";
 // Import all other files similarly
 
 export default {
@@ -68,7 +68,7 @@ export default {
         zhoesaph: { data: zhoesaph, player: "Zhoesaph Edeline" },
         minerva: { data: minerva, player: "Miss Minerva" },
         anthra: { data: anthra, player: "Anthra Aetherium" },
-        claire: { data: claire, player: "Claire Fierce" },
+        claire: { data: carbear, player: "Carbear Dragonheart" },
       },
       headers: [
         "EX1",

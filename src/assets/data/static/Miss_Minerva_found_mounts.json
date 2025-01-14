@@ -14,6 +14,13 @@
     "Content": "Savage 2"
   },
   {
+    "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+    "Name": "Sunforged",
+    "Expansion": "Endwalker",
+    "Fight": "Abyssos: The Eighth Circle (Savage)",
+    "Content": "Savage 2"
+  },
+  {
     "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
     "Name": "Ramuh",
     "Expansion": "Shadowbringers",
@@ -166,6 +173,13 @@
     "Expansion": "Endwalker",
     "Fight": "EX1 - Zodiark",
     "Content": "EX1"
+  },
+  {
+    "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
+    "Name": "Lynx Of Divine Light",
+    "Expansion": "Endwalker",
+    "Fight": "EX2 - Hydaelyn",
+    "Content": "EX2"
   },
   {
     "ID": "88d8d30b3643a33bb64fd2bdd158e2cbc5a063c6",
