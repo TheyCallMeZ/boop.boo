@@ -54,6 +54,8 @@ import zhoesaph from "@/assets/data/static/Zhoesaph_Edeline_found_mounts.json";
 import minerva from "@/assets/data/static/Miss_Minerva_found_mounts.json";
 import anthra from "@/assets/data/static/Anthra_Aetherium_found_mounts.json";
 import carbear from "@/assets/data/static/Carbear_Dragonheart_found_mounts.json";
+import rixia from "@/assets/data/static/Rixia_Koha_found_mounts.json";
+
 // Import all other files similarly
 
 export default {
@@ -69,6 +71,7 @@ export default {
         minerva: { data: minerva, player: "Miss Minerva" },
         anthra: { data: anthra, player: "Anthra Aetherium" },
         claire: { data: carbear, player: "Carbear Dragonheart" },
+        rixia: { data: rixia, player: "Rixia Koha" },
       },
       headers: [
         "EX1",
