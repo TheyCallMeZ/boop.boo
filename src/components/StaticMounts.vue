@@ -47,7 +47,6 @@
 
 <script>
 import etrigan from "@/assets/data/static/Etrigan_Elric_found_mounts.json";
-import aenaenon from "@/assets/data/static/Aenaenon_Falconrider_found_mounts.json";
 import adrinne from "@/assets/data/static/Adri__39_nne_Wyntesol_found_mounts.json";
 import rurumei from "@/assets/data/static/Rurumei_Wyntesol_found_mounts.json";
 import zhoesaph from "@/assets/data/static/Zhoesaph_Edeline_found_mounts.json";
@@ -64,7 +63,6 @@ export default {
       selectedExpansion: "Dawntrail",
       dataFiles: {
         etrigan: { data: etrigan, player: "Etrigan Elric" },
-        aenaenon: { data: aenaenon, player: "Aenaenon Falconrider" },
         adrinne: { data: adrinne, player: "Adri'nne Wyntesol" },
         rurumei: { data: rurumei, player: "Rurumei Wyntesol" },
         zhoesaph: { data: zhoesaph, player: "Zhoesaph Edeline" },
