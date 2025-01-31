@@ -36,6 +36,7 @@
                     (item.Expansion === selectedExpansion)
                 )
               "
+              class="emoji"
               >✔️</span
             >
           </td>
@@ -123,5 +124,9 @@ th {
 
 .left {
   text-align: left;
+}
+
+.emoji {
+  filter: hue-rotate(175deg) saturate(7);
 }
 </style>
