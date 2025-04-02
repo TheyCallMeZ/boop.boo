@@ -222,5 +222,12 @@
     "Expansion": "Dawntrail",
     "Fight": "EX1 - Worqor Lador",
     "Content": "EX1"
+  },
+  {
+    "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
+    "Name": "Wings Of Resolve",
+    "Expansion": "Dawntrail",
+    "Fight": "EX2 - Everkeep",
+    "Content": "EX2"
   }
 ]

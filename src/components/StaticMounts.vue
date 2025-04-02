@@ -55,6 +55,9 @@ import minerva from "@/assets/data/static/Miss_Minerva_found_mounts.json";
 import anthra from "@/assets/data/static/Anthra_Aetherium_found_mounts.json";
 import carbear from "@/assets/data/static/Carbear_Dragonheart_found_mounts.json";
 import rixia from "@/assets/data/static/Rixia_Koha_found_mounts.json";
+import aerosa from "@/assets/data/static/Aerosa_Auditore_found_mounts.json"
+import galdia from "@/assets/data/static/Galdia_Everfallen_found_mounts.json"
+import ismaie from "@/assets/data/static/Ismaie_Veiled_found_mounts.json"
 
 // Import all other files similarly
 
@@ -69,8 +72,11 @@ export default {
         zhoesaph: { data: zhoesaph, player: "Zhoesaph Edeline" },
         minerva: { data: minerva, player: "Miss Minerva" },
         anthra: { data: anthra, player: "Anthra Aetherium" },
-        claire: { data: carbear, player: "Carbear Dragonheart" },
+        carbear: { data: carbear, player: "Carbear Dragonheart" },
         rixia: { data: rixia, player: "Rixia Koha" },
+        aerosa: {data: aerosa, player: "Aerosa Auditore" },
+        galdia: { data: galdia, player: "Galdia Everfallen" },
+        ismaie: { data: ismaie, player: "Ismaie Veiled" },
       },
       headers: [
         "EX1",

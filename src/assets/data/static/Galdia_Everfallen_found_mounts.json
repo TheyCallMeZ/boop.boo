@@ -14,6 +14,13 @@
     "Content": "Savage 2"
   },
   {
+    "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+    "Name": "Sunforged",
+    "Expansion": "Endwalker",
+    "Fight": "Abyssos: The Eighth Circle (Savage)",
+    "Content": "Savage 2"
+  },
+  {
     "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
     "Name": "Ramuh",
     "Expansion": "Shadowbringers",
@@ -166,68 +173,5 @@
     "Expansion": "Stormblood",
     "Fight": "EX7 - The Wreath of Snakes (Extreme)",
     "Content": "EX7"
-  },
-  {
-    "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
-    "Name": "Lynx Of Eternal Darkness",
-    "Expansion": "Endwalker",
-    "Fight": "EX1 - Zodiark",
-    "Content": "EX1"
-  },
-  {
-    "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
-    "Name": "Lynx Of Divine Light",
-    "Expansion": "Endwalker",
-    "Fight": "EX2 - Hydaelyn",
-    "Content": "EX2"
-  },
-  {
-    "ID": "88d8d30b3643a33bb64fd2bdd158e2cbc5a063c6",
-    "Name": "Bluefeather Lynx",
-    "Expansion": "Endwalker",
-    "Fight": "EX3 - Endsinger",
-    "Content": "EX3"
-  },
-  {
-    "ID": "5aaf588bc303bafada076f0f464eae7b566997b5",
-    "Name": "Lynx Of Imperious Wind",
-    "Expansion": "Endwalker",
-    "Fight": "EX4 - Barbariccia",
-    "Content": "EX4"
-  },
-  {
-    "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
-    "Name": "Lynx Of Righteous Fire",
-    "Expansion": "Endwalker",
-    "Fight": "EX5 - Rubicante",
-    "Content": "EX5"
-  },
-  {
-    "ID": "78296dcfa7646aeb81e2da8ff963cac03ef72488",
-    "Name": "Lynx Of Fallen Shadow",
-    "Expansion": "Endwalker",
-    "Fight": "EX6 - Golbez",
-    "Content": "EX6"
-  },
-  {
-    "ID": "f78231f7cbd1d8fd2ecd39a8eee365b6cd511ced",
-    "Name": "Lynx Of Abyssal Grief",
-    "Expansion": "Endwalker",
-    "Fight": "EX7 - Zeromus",
-    "Content": "EX7"
-  },
-  {
-    "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
-    "Name": "Wings of Ruin",
-    "Expansion": "Dawntrail",
-    "Fight": "EX1 - Worqor Lador",
-    "Content": "EX1"
-  },
-  {
-    "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
-    "Name": "Wings Of Resolve",
-    "Expansion": "Dawntrail",
-    "Fight": "EX2 - Everkeep",
-    "Content": "EX2"
   }
 ]

@@ -35,13 +35,6 @@
     "Content": "Savage 3"
   },
   {
-    "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
-    "Name": "Monowheel S1",
-    "Expansion": "Dawntrail",
-    "Fight": "AAC Light-heavyweight M4 (Savage)",
-    "Content": "Savage 1"
-  },
-  {
     "ID": "859066dbd978b16beac4d0995aeb2c4945a19fa5",
     "Name": "Arrhidaeus",
     "Expansion": "Heavensward",
@@ -61,13 +54,6 @@
     "Expansion": "Shadowbringers",
     "Fight": "Eden\u0027s Gate: Sepulture (Savage)",
     "Content": "Savage 1"
-  },
-  {
-    "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
-    "Name": "Eden",
-    "Expansion": "Shadowbringers",
-    "Fight": "Eden\u0027s Promise: Eternity (Savage)",
-    "Content": "Savage 3"
   },
   {
     "ID": "17c2d16b412fb82161b7ad02842162642d70d9df",
