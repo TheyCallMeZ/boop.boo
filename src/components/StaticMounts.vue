@@ -10,6 +10,7 @@
     <table>
       <thead>
         <tr>
+          <th class="nopadding"></th>
           <th>Player</th>
           <th class="center">EX1</th>
           <th class="center">EX2</th>
@@ -25,7 +26,12 @@
       </thead>
       <tbody>
         <tr v-for="player in dataFiles" :key="player.name">
-          <td class="left">{{ player.player }}</td>
+          <td class="nopadding">
+            <img :src="`/ffxiv/job-icons/${player.job}.png`" width="35px" />
+          </td>
+          <td class="left">
+            {{ player.player }}
+          </td>
           <td v-for="header in headers" :key="header">
             <!-- Check if the player's content includes the current header and display a checkmark if it does -->
             <span
@@ -55,9 +61,9 @@ import minerva from "@/assets/data/static/Miss_Minerva_found_mounts.json";
 import anthra from "@/assets/data/static/Anthra_Aetherium_found_mounts.json";
 import carbear from "@/assets/data/static/Carbear_Dragonheart_found_mounts.json";
 import rixia from "@/assets/data/static/Rixia_Koha_found_mounts.json";
-import aerosa from "@/assets/data/static/Aerosa_Auditore_found_mounts.json"
-import galdia from "@/assets/data/static/Galdia_Everfallen_found_mounts.json"
-import ismaie from "@/assets/data/static/Ismaie_Veiled_found_mounts.json"
+import aerosa from "@/assets/data/static/Aerosa_Auditore_found_mounts.json";
+import galdia from "@/assets/data/static/Galdia_Everfallen_found_mounts.json";
+import ismaie from "@/assets/data/static/Ismaie_Veiled_found_mounts.json";
 
 // Import all other files similarly
 
@@ -66,17 +72,21 @@ export default {
     return {
       selectedExpansion: "Dawntrail",
       dataFiles: {
-        etrigan: { data: etrigan, player: "Etrigan Elric" },
-        adrinne: { data: adrinne, player: "Adri'nne Wyntesol" },
-        rurumei: { data: rurumei, player: "Rurumei Wyntesol" },
-        zhoesaph: { data: zhoesaph, player: "Zhoesaph Edeline" },
-        minerva: { data: minerva, player: "Miss Minerva" },
-        anthra: { data: anthra, player: "Anthra Aetherium" },
-        carbear: { data: carbear, player: "Carbear Dragonheart" },
-        rixia: { data: rixia, player: "Rixia Koha" },
-        aerosa: {data: aerosa, player: "Aerosa Auditore" },
-        galdia: { data: galdia, player: "Galdia Everfallen" },
-        ismaie: { data: ismaie, player: "Ismaie Veiled" },
+        etrigan: { data: etrigan, player: "Etrigan Elric", job: "RedMage" },
+        adrinne: { data: adrinne, player: "Adri'nne Wyntesol", job: "Sage" },
+        rurumei: {
+          data: rurumei,
+          player: "Rurumei Wyntesol",
+          job: "Machinist",
+        },
+        zhoesaph: { data: zhoesaph, player: "Zhoesaph Edeline", job: "Monk" },
+        minerva: { data: minerva, player: "Miss Minerva", job: "WhiteMage" },
+        anthra: { data: anthra, player: "Anthra Aetherium", job: "Paladin" },
+        carbear: { data: carbear, player: "Carbear Dragonheart", job: "Viper" },
+        rixia: { data: rixia, player: "Rixia Koha", job: "DarkKnight" },
+        aerosa: { data: aerosa, player: "Aerosa Auditore", job: "Warrior" },
+        galdia: { data: galdia, player: "Galdia Everfallen", job: "Warrior" },
+        ismaie: { data: ismaie, player: "Ismaie Veiled", job: "WhiteMage" },
       },
       headers: [
         "EX1",
@@ -116,7 +126,8 @@ table {
 th,
 td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 5px;
+  vertical-align: middle;
 }
 
 th {
@@ -130,9 +141,14 @@ th {
 
 .left {
   text-align: left;
+  vertical-align: middle;
 }
 
 .emoji {
   filter: hue-rotate(175deg) saturate(7);
+}
+
+.nopadding {
+  padding: 0;
 }
 </style>
