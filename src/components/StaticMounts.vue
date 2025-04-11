@@ -188,6 +188,9 @@ export default {
       );
     },
   },
+  mounted() {
+    document.title = "Blue Mages Anonymous Static Member Mounts";
+  },
 };
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/ffxiv">FFXIV Information</router-link> |
+    <router-link to="/ffxiv">Extreme Trial Guides</router-link> |
     <router-link to="/static">FFXIV Static Mounts</router-link>
   </nav>
   <router-view />

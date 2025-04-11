@@ -4,6 +4,7 @@
     "fightName": "Worqor Lar Dor",
     "bossName": "Valigarmanda",
     "imgPath": "/ffxiv/dawntrail/Worqor_Lar_Dor.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Worqor_Lar_Dor_(Extreme)",
     "youTubeLinks": [
       {
         "name": "Mizzteq's EX Guide",
@@ -19,6 +20,7 @@
     "fightName": "Everkeep",
     "bossName": "Zoraal Ja",
     "imgPath": "/ffxiv/dawntrail/Everkeep.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Everkeep_(Extreme)",
     "youTubeLinks": [
       {
         "name": "Mizzteq's EX Guide",
@@ -34,6 +36,7 @@
     "fightName": "Sphene's Burden",
     "bossName": "Queen Eternal",
     "imgPath": "/ffxiv/dawntrail/The_Minstrels_Ballad_Sphenes_Burden.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Sphene%27s_Burden",
     "youTubeLinks": [
       {
         "name": "Kobe's Classroom",
@@ -42,6 +45,46 @@
       {
         "name": "Hector Lectures",
         "url": "https://www.youtube.com/watch?v=yfvfhuEEMCY"
+      }
+    ]
+  },
+  {
+    "fightName": "Recollection",
+    "bossName": "Zelenia",
+    "imgPath": "/ffxiv/dawntrail/Recollection.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Recollection_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Kobe's Classroom",
+        "url": "https://www.youtube.com/watch?v=FddjSvl0qLc"
+      },
+      {
+        "name": "Hector Lectures",
+        "url": "https://www.youtube.com/watch?v=AFaiOZK78tM"
+      },
+      {
+        "name": "Hector's EF2 Braindead Strat",
+        "url": "https://www.youtube.com/watch?v=NxzneQ2Pcp8"
+      },
+      {
+        "name": "Hector Raidplan Strats (Video)",
+        "url": "https://www.youtube.com/watch?v=W7OhCtKQnxk"
+      },
+      {
+        "name": "NA Raidplan 1 By Rai",
+        "url": "https://raidplan.io/plan/-Wj9LY4RpWBtEnpX"
+      },
+      {
+        "name": "NA Raidplan 2 By Rai",
+        "url": "https://raidplan.io/plan/k9Vc_KRu9PVl0F-G"
+      },
+      {
+        "name": "EU Raidplan by Copy Nemu Nemu and Myre Snowhaven",
+        "url": "https://raidplan.io/plan/acWA-JTlEzA7SWMG"
+      },
+      {
+        "name": "Mr Happy's Guide",
+        "url": "https://www.youtube.com/watch?v=uop1Zzv8Clo"
       }
     ]
   }
