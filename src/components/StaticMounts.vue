@@ -27,10 +27,16 @@
       <tbody>
         <tr v-for="player in dataFiles" :key="player.name">
           <td class="nopadding">
-            <img :src="`/ffxiv/job-icons/${player.job}.png`" width="35px" />
+            <img
+              :src="`/ffxiv/job-icons/${player.job}.png`"
+              width="35px"
+              :alt="player.job"
+            />
           </td>
           <td class="left">
-            {{ player.player }}
+            <a :href="player.profileUrl" target="_blank"
+              >{{ player.player }}@{{ player.homeWorld }}</a
+            >
           </td>
           <td v-for="header in headers" :key="header">
             <!-- Check if the player's content includes the current header and display a checkmark if it does -->
@@ -42,9 +48,12 @@
                     (item.Expansion === selectedExpansion)
                 )
               "
-              class="emoji"
-              >✔️</span
-            >
+              ><img
+                class="smol"
+                src="/ffxiv/choco_thumbs_up.webp"
+                alt="Wark Wark!"
+              />
+            </span>
           </td>
         </tr>
       </tbody>
@@ -72,21 +81,83 @@ export default {
     return {
       selectedExpansion: "Dawntrail",
       dataFiles: {
-        etrigan: { data: etrigan, player: "Etrigan Elric", job: "RedMage" },
-        adrinne: { data: adrinne, player: "Adri'nne Wyntesol", job: "Sage" },
-        rurumei: {
-          data: rurumei,
-          player: "Rurumei Wyntesol",
-          job: "Machinist",
+        etrigan: {
+          data: etrigan.Mounts,
+          player: etrigan.name,
+          job: etrigan.job,
+          homeWorld: etrigan.homeWorld,
+          profileUrl: etrigan.ProfileUrl,
         },
-        zhoesaph: { data: zhoesaph, player: "Zhoesaph Edeline", job: "Monk" },
-        minerva: { data: minerva, player: "Miss Minerva", job: "WhiteMage" },
-        anthra: { data: anthra, player: "Anthra Aetherium", job: "Paladin" },
-        carbear: { data: carbear, player: "Carbear Dragonheart", job: "Viper" },
-        rixia: { data: rixia, player: "Rixia Koha", job: "DarkKnight" },
-        aerosa: { data: aerosa, player: "Aerosa Auditore", job: "Warrior" },
-        galdia: { data: galdia, player: "Galdia Everfallen", job: "Warrior" },
-        ismaie: { data: ismaie, player: "Ismaie Veiled", job: "WhiteMage" },
+        adrinne: {
+          data: adrinne.Mounts,
+          player: adrinne.name,
+          job: adrinne.job,
+          homeWorld: adrinne.homeWorld,
+          profileUrl: adrinne.ProfileUrl,
+        },
+        rurumei: {
+          data: rurumei.Mounts,
+          player: rurumei.name,
+          job: rurumei.job,
+          homeWorld: rurumei.homeWorld,
+          profileUrl: rurumei.ProfileUrl,
+        },
+        zhoesaph: {
+          data: zhoesaph.Mounts,
+          player: zhoesaph.name,
+          job: zhoesaph.job,
+          homeWorld: zhoesaph.homeWorld,
+          profileUrl: zhoesaph.ProfileUrl,
+        },
+        minerva: {
+          data: minerva.Mounts,
+          player: minerva.name,
+          job: minerva.job,
+          homeWorld: minerva.homeWorld,
+          profileUrl: minerva.ProfileUrl,
+        },
+        anthra: {
+          data: anthra.Mounts,
+          player: anthra.name,
+          job: anthra.job,
+          homeWorld: anthra.homeWorld,
+          profileUrl: anthra.ProfileUrl,
+        },
+        carbear: {
+          data: carbear.Mounts,
+          player: carbear.name,
+          job: carbear.job,
+          homeWorld: carbear.homeWorld,
+          profileUrl: carbear.ProfileUrl,
+        },
+        rixia: {
+          data: rixia.Mounts,
+          player: rixia.name,
+          job: rixia.job,
+          homeWorld: rixia.homeWorld,
+          profileUrl: rixia.ProfileUrl,
+        },
+        aerosa: {
+          data: aerosa.Mounts,
+          player: aerosa.name,
+          job: aerosa.job,
+          homeWorld: aerosa.homeWorld,
+          profileUrl: aerosa.ProfileUrl,
+        },
+        galdia: {
+          data: galdia.Mounts,
+          player: galdia.name,
+          job: galdia.job,
+          homeWorld: galdia.homeWorld,
+          profileUrl: galdia.ProfileUrl,
+        },
+        ismaie: {
+          data: ismaie.Mounts,
+          player: ismaie.name,
+          job: ismaie.job,
+          homeWorld: ismaie.homeWorld,
+          profileUrl: ismaie.ProfileUrl,
+        },
       },
       headers: [
         "EX1",
@@ -100,6 +171,9 @@ export default {
         "Savage 2",
         "Savage 3",
       ],
+      images: {
+        choco_thumbs_up: "./ffxiv/choco_thumbs_up.webp",
+      },
     };
   },
   computed: {
@@ -150,5 +224,26 @@ th {
 
 .nopadding {
   padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+.smol {
+  width: 35px;
 }
 </style>
