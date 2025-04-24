@@ -5,6 +5,7 @@
   "lodestoneId": "32056005",
   "ProfileUrl": "https://na.finalfantasyxiv.com/lodestone/character/32056005",
   "MountUrl": "https://na.finalfantasyxiv.com/lodestone/character/32056005/mount",
+  "status": "ft",
   "Mounts": [
     {
       "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
@@ -158,6 +159,55 @@
       "Name": "Hallowed Kamuy",
       "Expansion": "Stormblood",
       "Fight": "EX7 - The Wreath of Snakes (Extreme)",
+      "Content": "EX7"
+    },
+    {
+      "ID": "384e0c1ac94b27675beb7e42f68fdc21fbb1f77b",
+      "Name": "Fae Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX1 - Titania",
+      "Content": "EX1"
+    },
+    {
+      "ID": "e35705eeac915a012a3819f0d314492014c05db3",
+      "Name": "Innocent Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX2 - Innocence",
+      "Content": "EX2"
+    },
+    {
+      "ID": "15041a6511dc3c4f84375aa3506191939126384a",
+      "Name": "Shadow Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX3 - Hades",
+      "Content": "EX3"
+    },
+    {
+      "ID": "e07bf0bd4f27a55c7347e8bd5fc0cc7d9c9751f6",
+      "Name": "Ruby Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX4 - The Ruby Weapon",
+      "Content": "EX4"
+    },
+    {
+      "ID": "9aa42147d7fa50e67aa0e98cf2559d9eff1b5c8d",
+      "Name": "Gwiber Of Light",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX5 - Warrior of Light",
+      "Content": "EX5"
+    },
+    {
+      "ID": "b4e34b2e30da1041034ee96c20d06d2b6bd981ea",
+      "Name": "Emerald Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX6 - The Emerald Weapon",
+      "Content": "EX6"
+    },
+    {
+      "ID": "d1e21dd84cd1ade35db3b4d8433c40abffd56c2c",
+      "Name": "Diamond Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX7 - The Diamond Weapon",
       "Content": "EX7"
     },
     {

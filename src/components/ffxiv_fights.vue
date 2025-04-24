@@ -27,12 +27,14 @@ export default {
 </script>
 
 <template>
-  <select v-model="selectedTrial">
-    <option value="stormblood">Stormblood</option>
-    <option value="shadowbringers">Shadowbringers</option>
-    <option value="endwalker">Endwalker</option>
-    <option value="dawntrail">Dawntrail</option>
-  </select>
+  <div class="center">
+    <select v-model="selectedTrial">
+      <option value="stormblood">Stormblood</option>
+      <option value="shadowbringers">Shadowbringers</option>
+      <option value="endwalker">Endwalker</option>
+      <option value="dawntrail">Dawntrail</option>
+    </select>
+  </div>
   <p />
   <div class="center">
     <table>

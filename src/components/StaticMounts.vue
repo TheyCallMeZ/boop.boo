@@ -1,12 +1,14 @@
 <template>
   <div>
-    <select v-model="selectedExpansion">
-      <option value="Heavensward">Heavensward</option>
-      <option value="Stormblood">Stormblood</option>
-      <option value="Endwalker">Endwalker</option>
-      <option value="Dawntrail">Dawntrail</option>
-    </select>
-
+    <div class="center">
+      <select v-model="selectedExpansion">
+        <option value="Heavensward">Heavensward</option>
+        <option value="Stormblood">Stormblood</option>
+        <option value="Shadowbringers">Shadowbringers</option>
+        <option value="Endwalker">Endwalker</option>
+        <option value="Dawntrail">Dawntrail</option>
+      </select>
+    </div>
     <table>
       <thead>
         <tr>
@@ -25,7 +27,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="player in dataFiles" :key="player.name">
+        <tr v-for="player in dataFiles" :key="player?.player">
           <td class="nopadding">
             <img
               :src="`/ffxiv/job-icons/${player.job}.png`"
@@ -35,8 +37,9 @@
           </td>
           <td class="left">
             <a :href="player.profileUrl" target="_blank"
-              >{{ player.player }}@{{ player.homeWorld }}</a
-            >
+              >{{ player.player }}@{{ player.homeWorld
+              }}{{ player.status === "pt" ? "*" : "" }}
+            </a>
           </td>
           <td v-for="header in headers" :key="header">
             <!-- Check if the player's content includes the current header and display a checkmark if it does -->
@@ -44,8 +47,8 @@
               v-if="
                 player.data.some(
                   (item) =>
-                    (item.Content === header) &
-                    (item.Expansion === selectedExpansion)
+                    item.Content === header &&
+                    item.Expansion === selectedExpansion
                 )
               "
               ><img
@@ -59,82 +62,17 @@
       </tbody>
     </table>
   </div>
+  <span class="left"> * = Substitute Member </span>
 </template>
 
 <script>
-import etrigan from "@/assets/data/static/Etrigan_Elric_found_mounts.json";
-import adrinne from "@/assets/data/static/Adri__39_nne_Wyntesol_found_mounts.json";
-import rurumei from "@/assets/data/static/Rurumei_Wyntesol_found_mounts.json";
-import zhoesaph from "@/assets/data/static/Zhoesaph_Edeline_found_mounts.json";
-import basileus from "@/assets/data/static/Basileus_Sloth_found_mounts.json";
-import aerosa from "@/assets/data/static/Aerosa_Auditore_found_mounts.json";
-import galdia from "@/assets/data/static/Galdia_Everfallen_found_mounts.json";
-import ismaie from "@/assets/data/static/Ismaie_Veiled_found_mounts.json";
-
-// Import all other files similarly
+import { getDataFiles } from "@/utils/staticLoader";
 
 export default {
   data() {
     return {
       selectedExpansion: "Dawntrail",
-      dataFiles: {
-        etrigan: {
-          data: etrigan.Mounts,
-          player: etrigan.name,
-          job: etrigan.job,
-          homeWorld: etrigan.homeWorld,
-          profileUrl: etrigan.ProfileUrl,
-        },
-        adrinne: {
-          data: adrinne.Mounts,
-          player: adrinne.name,
-          job: adrinne.job,
-          homeWorld: adrinne.homeWorld,
-          profileUrl: adrinne.ProfileUrl,
-        },
-        rurumei: {
-          data: rurumei.Mounts,
-          player: rurumei.name,
-          job: rurumei.job,
-          homeWorld: rurumei.homeWorld,
-          profileUrl: rurumei.ProfileUrl,
-        },
-        zhoesaph: {
-          data: zhoesaph.Mounts,
-          player: zhoesaph.name,
-          job: zhoesaph.job,
-          homeWorld: zhoesaph.homeWorld,
-          profileUrl: zhoesaph.ProfileUrl,
-        },
-        basileus: {
-          data: basileus.Mounts,
-          player: basileus.name,
-          job: basileus.job,
-          homeWorld: basileus.homeWorld,
-          profileUrl: basileus.ProfileUrl,
-        },
-        aerosa: {
-          data: aerosa.Mounts,
-          player: aerosa.name,
-          job: aerosa.job,
-          homeWorld: aerosa.homeWorld,
-          profileUrl: aerosa.ProfileUrl,
-        },
-        galdia: {
-          data: galdia.Mounts,
-          player: galdia.name,
-          job: galdia.job,
-          homeWorld: galdia.homeWorld,
-          profileUrl: galdia.ProfileUrl,
-        },
-        ismaie: {
-          data: ismaie.Mounts,
-          player: ismaie.name,
-          job: ismaie.job,
-          homeWorld: ismaie.homeWorld,
-          profileUrl: ismaie.ProfileUrl,
-        },
-      },
+      dataFiles: getDataFiles(),
       headers: [
         "EX1",
         "EX2",
@@ -167,6 +105,15 @@ export default {
   mounted() {
     document.title = "Blue Mages Anonymous Static Member Mounts";
   },
+  // created() {
+  //   //This is used for debugging issues with dynamically loading the data
+  //   try {
+  //     this.dataFiles = getDataFiles();
+  //     console.log("Loaded data files:", this.dataFiles);
+  //   } catch (error) {
+  //     console.error("Error loading data files:", error);
+  //   }
+  // },
 };
 </script>
 
@@ -174,6 +121,7 @@ export default {
 table {
   width: 100%;
   border-collapse: collapse;
+  text-align: center;
 }
 
 th,
@@ -192,8 +140,11 @@ th {
   text-align: center;
 }
 
-.left {
-  text-align: left;
+.left,
+td.left,
+td.left span,
+td.left a {
+  text-align: left !important;
   vertical-align: middle;
 }
 
@@ -224,5 +175,8 @@ a:active {
 
 .smol {
   width: 35px;
+}
+td > * {
+  text-align: left !important;
 }
 </style>

@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="center">
+    So you've stumbled upon this page eh?<br /><br />
+    Welp.... You can check out the links above for either links I put together
+    for Extreme Trial Guides<br /><br />
+    -OR-<br /><br />
+    You can see how my static is doing with our Mount Farming progression...
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "HomeView",
-  components: {
-    HelloWorld,
-  },
+  components: {},
 };
 </script>
