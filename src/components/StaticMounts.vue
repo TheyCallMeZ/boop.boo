@@ -66,10 +66,7 @@ import etrigan from "@/assets/data/static/Etrigan_Elric_found_mounts.json";
 import adrinne from "@/assets/data/static/Adri__39_nne_Wyntesol_found_mounts.json";
 import rurumei from "@/assets/data/static/Rurumei_Wyntesol_found_mounts.json";
 import zhoesaph from "@/assets/data/static/Zhoesaph_Edeline_found_mounts.json";
-import minerva from "@/assets/data/static/Miss_Minerva_found_mounts.json";
-import anthra from "@/assets/data/static/Anthra_Aetherium_found_mounts.json";
-import carbear from "@/assets/data/static/Carbear_Dragonheart_found_mounts.json";
-import rixia from "@/assets/data/static/Rixia_Koha_found_mounts.json";
+import basileus from "@/assets/data/static/Basileus_Sloth_found_mounts.json";
 import aerosa from "@/assets/data/static/Aerosa_Auditore_found_mounts.json";
 import galdia from "@/assets/data/static/Galdia_Everfallen_found_mounts.json";
 import ismaie from "@/assets/data/static/Ismaie_Veiled_found_mounts.json";
@@ -109,33 +106,12 @@ export default {
           homeWorld: zhoesaph.homeWorld,
           profileUrl: zhoesaph.ProfileUrl,
         },
-        minerva: {
-          data: minerva.Mounts,
-          player: minerva.name,
-          job: minerva.job,
-          homeWorld: minerva.homeWorld,
-          profileUrl: minerva.ProfileUrl,
-        },
-        anthra: {
-          data: anthra.Mounts,
-          player: anthra.name,
-          job: anthra.job,
-          homeWorld: anthra.homeWorld,
-          profileUrl: anthra.ProfileUrl,
-        },
-        carbear: {
-          data: carbear.Mounts,
-          player: carbear.name,
-          job: carbear.job,
-          homeWorld: carbear.homeWorld,
-          profileUrl: carbear.ProfileUrl,
-        },
-        rixia: {
-          data: rixia.Mounts,
-          player: rixia.name,
-          job: rixia.job,
-          homeWorld: rixia.homeWorld,
-          profileUrl: rixia.ProfileUrl,
+        basileus: {
+          data: basileus.Mounts,
+          player: basileus.name,
+          job: basileus.job,
+          homeWorld: basileus.homeWorld,
+          profileUrl: basileus.ProfileUrl,
         },
         aerosa: {
           data: aerosa.Mounts,

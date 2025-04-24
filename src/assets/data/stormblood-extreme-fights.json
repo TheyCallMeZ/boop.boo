@@ -1,3 +1,100 @@
 ﻿{
-"extreme": []
+"extreme": [
+  {
+    "fightName": "The Pool of Tribute (Extreme)",
+    "bossName": "Susano",
+    "imgPath": "/ffxiv/stormblood/The_Pool_of_Tribute_(Extreme).png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Pool_of_Tribute_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=CFWPZb9q_Zo"
+      }
+    ]
+  },
+  {
+    "fightName": "Emanation (Extreme)",
+    "bossName": "Lakshmi",
+    "imgPath": "/ffxiv/stormblood/Emanation_(Extreme).png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Emanation_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=ek_FAZTuHWU"
+      }
+    ]
+  },
+  {
+    "fightName": "The Minstrel's Ballad: Shinryu's Domain",
+    "bossName": "Shinryu",
+    "imgPath": "/ffxiv/stormblood/The_Minstrel's_Ballad_Shinryu's_Domain.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Shinryu%27s_Domain",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=Pnqopy0Q4dI"
+      }
+    ]
+  },
+  {
+    "fightName": "The Jade Stoa (Extreme)",
+    "bossName": "Byakko",
+    "imgPath": "/ffxiv/stormblood/The_Jade_Stoa_(Extreme).png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Jade_Stoa_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=o00pbO_duHQ"
+      }
+    ]
+  },
+  {
+    "fightName": "The Minstrel's Ballad: Tsukuyomi's Pain",
+    "bossName": "Tsukuyomi",
+    "imgPath": "/ffxiv/stormblood/The_Minstrel's_Ballad_Tsukuyomi's_Pain.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Tsukuyomi%27s_Pain",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=6jXScwlL9fM"
+      }
+    ]
+  },
+  {
+    "fightName": "The Great Hunt (Extreme)",
+    "bossName": "Rathalos",
+    "imgPath": "/ffxiv/stormblood/The_Great_Hunt_(Extreme).png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Great_Hunt_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Mr Happy's EX Guide",
+        "url": "https://www.youtube.com/watch?v=ndrkN-3LBfM"
+      }
+    ]
+  },
+  {
+    "fightName": "Hells' Kier (Extreme)",
+    "bossName": "Suzaku",
+    "imgPath": "/ffxiv/stormblood/Hells'_Kier_(Extreme).png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Hells%27_Kier_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=isBGjJ60a-M"
+      }
+    ]
+  },
+  {
+    "fightName": "The Wreath of Snakes (Extreme)",
+    "bossName": "Seiryu",
+    "imgPath": "/ffxiv/stormblood/The_wreath_of_snakes_(extreme).png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Wreath_of_Snakes_(Extreme)",
+    "youTubeLinks": [
+      {
+        "name": "Mizzteq's EX Guide",
+        "url": "https://www.youtube.com/watch?v=NNyBuh2TNYg"
+      }
+    ]
+  }
+]
 }

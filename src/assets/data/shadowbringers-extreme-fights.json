@@ -1,0 +1,105 @@
+{
+  "extreme": [
+    {
+      "fightName": "The Dancing Plague (Extreme)",
+      "bossName": "Titania",
+      "imgPath": "/ffxiv/shadowbringers/The_Dancing_Plague_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Dancing_Plague_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=uED77BQwI5c"
+        },
+        {
+          "name": "Moonshadow Fantasy 2 Player Lvl100 Guide",
+          "url": "https://www.youtube.com/watch?v=mEsR0qLqFZU"
+        }
+      ]
+    },
+    {
+      "fightName": "The Crown of the Immaculate (Extreme)",
+      "bossName": "Innocence",
+      "imgPath": "/ffxiv/shadowbringers/The_Crown_of_the_Immaculate_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Crown_of_the_Immaculate_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=HJJZpoWYwQs"
+        }
+      ]
+    },
+    {
+      "fightName": "The Minstrel's Ballad: Hades's Elegy",
+      "bossName": "Hades",
+      "imgPath": "/ffxiv/shadowbringers/The_Minstrel's_Ballad_Hades's_Elegy.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Hades%27s_Elegy",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=6CkgNEe4u3o"
+        }
+      ]
+    },
+    {
+      "fightName": "Cinder Drift (Extreme)",
+      "bossName": "The Ruby Weapon",
+      "imgPath": "/ffxiv/shadowbringers/Cinder_Drift_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Cinder_Drift_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=tO3jau5upVg"
+        }
+      ]
+    },
+    {
+      "fightName": "Memoria Misera (Extreme)",
+      "bossName": "Varis yae Galvus",
+      "imgPath": "/ffxiv/shadowbringers/Memoria_Misera_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Memoria_Misera_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=MVCrCtbQd1w"
+        }
+      ]
+    },
+    {
+      "fightName": "The Seat of Sacrifice (Extreme)",
+      "bossName": "Warrior of Light",
+      "imgPath": "/ffxiv/shadowbringers/The_Seat_of_Sacrifice_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Seat_of_Sacrifice_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=1Pkkb0iwK7A"
+        }
+      ]
+    },
+    {
+      "fightName": "Castrum Marinum (Extreme)",
+      "bossName": "The Emerald Weapon",
+      "imgPath": "/ffxiv/shadowbringers/Castrum_Marinum_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Castrum_Marinum_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=J5QWZRewiyQ"
+        }
+      ]
+    },
+    {
+      "fightName": "The Cloud Deck (Extreme)",
+      "bossName": "The Diamond Weapon",
+      "imgPath": "/ffxiv/shadowbringers/The_Cloud_Deck_(Extreme).png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Cloud_Deck_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=_xjA5JWyzKg"
+        }
+      ]
+    }
+
+  ]
+}

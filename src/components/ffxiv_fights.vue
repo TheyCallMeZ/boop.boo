@@ -1,5 +1,6 @@
 ﻿<script>
 import stormblood from "@/assets/data/stormblood-extreme-fights.json";
+import shadowbringers from "@/assets/data/shadowbringers-extreme-fights.json";
 import endwalker from "@/assets/data/endwalker-extreme-fights.json";
 import dawntrail from "@/assets/data/dawntrail-extreme-fights.json";
 export default {
@@ -8,6 +9,7 @@ export default {
       selectedTrial: "dawntrail",
       dataFiles: {
         stormblood: stormblood,
+        shadowbringers: shadowbringers,
         endwalker: endwalker,
         dawntrail: dawntrail,
       },
@@ -27,6 +29,7 @@ export default {
 <template>
   <select v-model="selectedTrial">
     <option value="stormblood">Stormblood</option>
+    <option value="shadowbringers">Shadowbringers</option>
     <option value="endwalker">Endwalker</option>
     <option value="dawntrail">Dawntrail</option>
   </select>
@@ -80,5 +83,19 @@ export default {
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   list-style-position: inside; /* Align bullets with the text */
+}
+ul {
+  text-align: left;
+  /* If the list itself is in a container that's affecting alignment */
+  padding-left: 20px; /* Adjust this value as needed */
+  margin-left: 0;
+}
+
+li {
+  text-align: left;
+}
+
+td {
+  padding: 10px;
 }
 </style>
