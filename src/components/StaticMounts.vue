@@ -132,7 +132,6 @@ td {
 }
 
 th {
-  background-color: #f2f2f2;
   text-align: left;
 }
 
@@ -157,20 +156,7 @@ td.left a {
 }
 
 a {
-  color: black;
   text-decoration: none;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: black;
-}
-
-a:active {
-  color: black;
 }
 
 .smol {
