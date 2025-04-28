@@ -45,6 +45,9 @@ jobs:
           
       - name: Copy build files and commit
         run: |
+          # Remove everything except .git and .github directories
+          find . -mindepth 1 -maxdepth 1 -not -name ".git" -not -name ".github" -exec rm -rf {} \;
+
           cp -r /tmp/dist/* .  # Copy build files
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
