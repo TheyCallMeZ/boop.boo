@@ -230,6 +230,13 @@
       "Expansion": "Shadowbringers",
       "Fight": "EX7 - The Diamond Weapon",
       "Content": "EX7"
+    },
+    {
+      "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
+      "Name": "Wings of Ruin",
+      "Expansion": "Dawntrail",
+      "Fight": "EX1 - Worqor Lador",
+      "Content": "EX1"
     }
   ]
 }

@@ -63,10 +63,12 @@
     </table>
   </div>
   <span class="left"> * = Substitute Member </span>
+  <p>Last Updated: {{ lastUpdated }}</p>
 </template>
 
 <script>
 import { getDataFiles } from "@/utils/staticLoader";
+import lastUpdated from "@/assets/data/last_updated.json";
 
 export default {
   data() {
@@ -88,6 +90,7 @@ export default {
       images: {
         choco_thumbs_up: "./ffxiv/choco_thumbs_up.webp",
       },
+      lastUpdated: new Date(lastUpdated.last_updated).toLocaleString(),
     };
   },
   computed: {
