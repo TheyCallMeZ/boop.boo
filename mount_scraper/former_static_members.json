@@ -1,0 +1,48 @@
+﻿[
+  {
+    "name": "Anthra Atherium",
+    "homeWorld": "Lamia",
+    "lodestoneId": "44041353",
+    "job": "Paladin"
+  },
+  {
+    "name": "Miss Minerva",
+    "homeWorld": "Lamia",
+    "lodestoneId": "46611549",
+    "job": "Astrologian"
+  },
+  {
+    "name": "Rixia Koha",
+    "lodestoneId": "42634297",
+    "homeWorld": "Exodus",
+    "job": "DarkKnight"
+  },
+  {
+    "name": "Bonk Bet",
+    "lodestoneId": "20135937",
+    "homeWorld": "Lamia",
+    "job": "Gunbreaker",
+    "status": "ft"
+  },
+  {
+    "name": "Galdia Everfallen",
+    "lodestoneId": "27201565",
+    "homeWorld": "Midgardsormr",
+    "job": "Warrior",
+    "status": "ft"
+  },
+  {
+    "name": "Basileus Sloth",
+    "lodestoneId": "34849707",
+    "homeWorld": "Exodus",
+    "job": "Viper",
+    "status": "ft"
+  },
+  {
+    "name": "Sol Fallen",
+    "lodestoneId": "30647878",
+    "homeWorld": "Leviathan",
+    "job": "Warrior",
+    "status": "ft"
+  }
+]

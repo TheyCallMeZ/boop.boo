@@ -1,0 +1,66 @@
+﻿[
+  {
+    "name": "Etrigan Elric",
+    "lodestoneId": "883706",
+    "homeWorld": "Hyperion",
+    "job": "RedMage",
+    "status": "ft"
+  },
+  {
+    "name": "Adri'nne Wyntesol",
+    "lodestoneId": "46957960",
+    "homeWorld": "Exodus",
+    "job": "Sage",
+    "status": "ft"
+  },
+  {
+    "name": "Rurumei Wyntesol",
+    "lodestoneId": "46970878",
+    "homeWorld": "Exodus",
+    "job": "Machinist",
+    "status": "ft"
+  },
+  {
+    "name": "Zhoesaph Edeline",
+    "lodestoneId": "46961325",
+    "homeWorld": "Exodus",
+    "job": "Monk",
+    "status": "ft"
+  },
+  {
+    "name": "Astrum Solaris",
+    "lodestoneId": "35364003",
+    "homeWorld": "Hyperion",
+    "job": "Reaper",
+    "status": "pt"
+  },
+  {
+    "name": "Ismaie Veiled",
+    "lodestoneId": "52796871",
+    "homeWorld": "Midgardsormr",
+    "job": "WhiteMage",
+    "status": "ft"
+  },
+  {
+    "name": "Aerosa Auditore",
+    "lodestoneId": "32056005",
+    "homeWorld": "Famfrit",
+    "job": "Warrior",
+    "status": "ft"
+  },
+  {
+    "name": "Clayton Krauser",
+    "lodestoneId": "4247400",
+    "homeWorld": "Famfrit",
+    "job": "Ninja",
+    "status": "ft"
+  },
+    {
+    "name": "Nerubo Aristor",
+    "lodestoneId": "17795669",
+    "homeWorld": "Leviathan",
+    "job": "DarkKnight",
+    "status": "ft"
+  }
+
+]

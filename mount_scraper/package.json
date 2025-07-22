@@ -1,0 +1,17 @@
+{
+  "name": "mounty-mcmountface",
+  "version": "1.0.0",
+  "description": "FFXIV Mount scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
