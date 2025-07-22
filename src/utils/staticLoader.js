@@ -4,19 +4,19 @@ export const getDataFiles = () => {
 
   const files = context.keys().map((key) => {
     const fileData = context(key);
-    //console.log("Loading file:", key);
-    //console.log("File data:", fileData);
+    console.log("Loading file:", key);
+    console.log("File data:", fileData);
 
     return {
-      data: fileData.Mounts,
+      data: fileData.mounts,
       player: fileData.name,
       job: fileData.job,
       homeWorld: fileData.homeWorld,
-      profileUrl: fileData.ProfileUrl,
+      profileUrl: fileData.profileUrl,
       status: fileData.status,
     };
   });
 
-  //console.log("Processed files:", files);
+  console.log("Processed files:", files);
   return files;
 };
