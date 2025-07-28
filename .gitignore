@@ -139,7 +139,8 @@ fabric.properties
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -184,3 +185,5 @@ npm-debug.log
 yarn-error.log
 
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore,macos,jetbrains+all,vue,vuejs,c++
+
+/mount_scraper/output/
