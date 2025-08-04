@@ -162,11 +162,25 @@
       "Content": "EX1"
     },
     {
+      "ID": "15041a6511dc3c4f84375aa3506191939126384a",
+      "Name": "Shadow Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX3 - Hades",
+      "Content": "EX3"
+    },
+    {
       "ID": "e07bf0bd4f27a55c7347e8bd5fc0cc7d9c9751f6",
       "Name": "Ruby Gwiber",
       "Expansion": "Shadowbringers",
       "Fight": "EX4 - The Ruby Weapon",
       "Content": "EX4"
+    },
+    {
+      "ID": "9aa42147d7fa50e67aa0e98cf2559d9eff1b5c8d",
+      "Name": "Gwiber Of Light",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX5 - Warrior of Light",
+      "Content": "EX5"
     },
     {
       "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",

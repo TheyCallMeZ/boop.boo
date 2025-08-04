@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "scrape": "cd mount_scraper && node mount_scraper.js && cd ..",
     "serve": "vue-cli-service serve",
     "build-old": "vue-cli-service build",
     "lint-old": "vue-cli-service lint",
