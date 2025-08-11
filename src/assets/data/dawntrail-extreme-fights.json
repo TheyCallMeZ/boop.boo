@@ -87,6 +87,22 @@
         "url": "https://www.youtube.com/watch?v=uop1Zzv8Clo"
       }
     ]
+  },
+  {
+    "fightName": "The Minstrel’s Ballad: Necron’s Embrace",
+    "bossName": "Necron",
+    "imgPath": "/ffxiv/dawntrail/The_Minstrel's_Ballad_Necron's_Embrace.png",
+    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Necron%27s_Embrace",
+    "youTubeLinks": [
+      {
+        "name": "Raidplan",
+        "url": "https://raidplan.io/plan/zqey3pp7kfp5ghc4"
+      },
+      {
+        "name": "Hector Lectures",
+        "url": "https://www.youtube.com/watch?v=2RsWkk8bxyk"
+      }
+    ]
   }
 ]
 }
