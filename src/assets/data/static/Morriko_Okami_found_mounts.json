@@ -1,0 +1,74 @@
+{
+  "name": "Morriko Okami",
+  "job": "GunBreaker",
+  "homeWorld": "Exodus",
+  "lodestoneId": "46410179",
+  "status": "ft",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/46410179",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/46410179/mount",
+  "mounts": [
+    {
+      "ID": "65b746dd746a4cd4880ac84af86ebb49b6805b5c",
+      "Name": "Sophic Lanner",
+      "Expansion": "Heavensward",
+      "Fight": "EX6 - Containment Bay P1T6 (Extreme)",
+      "Content": "EX6"
+    },
+    {
+      "ID": "158c677caf412494e733f8151f47678abedde60b",
+      "Name": "Blissful Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX2 - Emanation (Extreme)",
+      "Content": "EX2"
+    },
+    {
+      "ID": "b6d26f816ea0c3f1850bb8acc0e08869fc954e3c",
+      "Name": "Reveling Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX1 - The Pool of Tribute (Extreme)",
+      "Content": "EX1"
+    },
+    {
+      "ID": "ebd93a0e11df428058bae0e08f217c303c194980",
+      "Name": "Legendary Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX3 - The Minstrel's Ballad: Shinryu's Domain",
+      "Content": "EX3"
+    },
+    {
+      "ID": "e01f10ad7f8ecfbce248991e8f22b7ca4d84cbbc",
+      "Name": "Hallowed Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX7 - The Wreath of Snakes (Extreme)",
+      "Content": "EX7"
+    },
+    {
+      "ID": "e07bf0bd4f27a55c7347e8bd5fc0cc7d9c9751f6",
+      "Name": "Ruby Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX4 - The Ruby Weapon",
+      "Content": "EX4"
+    },
+    {
+      "ID": "b4e34b2e30da1041034ee96c20d06d2b6bd981ea",
+      "Name": "Emerald Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX6 - The Emerald Weapon",
+      "Content": "EX6"
+    },
+    {
+      "ID": "88d8d30b3643a33bb64fd2bdd158e2cbc5a063c6",
+      "Name": "Bluefeather Lynx",
+      "Expansion": "Endwalker",
+      "Fight": "EX3 - Endsinger",
+      "Content": "EX3"
+    },
+    {
+      "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
+      "Name": "Wings of Ruin",
+      "Expansion": "Dawntrail",
+      "Fight": "EX1 - Worqor Lador",
+      "Content": "EX1"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "name": "Nerubo Aristor",
-  "job": "DarkKnight",
-  "homeWorld": "Leviathan",
-  "lodestoneId": "17795669",
+  "name": "Aero Auditore",
+  "job": "Warrior",
+  "homeWorld": "Famfrit",
+  "lodestoneId": "32056005",
   "status": "ft",
-  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/17795669",
-  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/17795669/mount",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/32056005",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/32056005/mount",
   "mounts": [
     {
       "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
@@ -62,13 +62,6 @@
       "Expansion": "Shadowbringers",
       "Fight": "Eden's Gate: Sepulture (Savage)",
       "Content": "Savage 1"
-    },
-    {
-      "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
-      "Name": "Eden",
-      "Expansion": "Shadowbringers",
-      "Fight": "Eden's Promise: Eternity (Savage)",
-      "Content": "Savage 3"
     },
     {
       "ID": "17c2d16b412fb82161b7ad02842162642d70d9df",
@@ -183,6 +176,13 @@
       "Content": "EX2"
     },
     {
+      "ID": "15041a6511dc3c4f84375aa3506191939126384a",
+      "Name": "Shadow Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX3 - Hades",
+      "Content": "EX3"
+    },
+    {
       "ID": "e07bf0bd4f27a55c7347e8bd5fc0cc7d9c9751f6",
       "Name": "Ruby Gwiber",
       "Expansion": "Shadowbringers",
@@ -211,6 +211,13 @@
       "Content": "EX7"
     },
     {
+      "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
+      "Name": "Lynx Of Eternal Darkness",
+      "Expansion": "Endwalker",
+      "Fight": "EX1 - Zodiark",
+      "Content": "EX1"
+    },
+    {
       "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
       "Name": "Lynx Of Divine Light",
       "Expansion": "Endwalker",
@@ -222,6 +229,55 @@
       "Name": "Bluefeather Lynx",
       "Expansion": "Endwalker",
       "Fight": "EX3 - Endsinger",
+      "Content": "EX3"
+    },
+    {
+      "ID": "5aaf588bc303bafada076f0f464eae7b566997b5",
+      "Name": "Lynx Of Imperious Wind",
+      "Expansion": "Endwalker",
+      "Fight": "EX4 - Barbariccia",
+      "Content": "EX4"
+    },
+    {
+      "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
+      "Name": "Lynx Of Righteous Fire",
+      "Expansion": "Endwalker",
+      "Fight": "EX5 - Rubicante",
+      "Content": "EX5"
+    },
+    {
+      "ID": "78296dcfa7646aeb81e2da8ff963cac03ef72488",
+      "Name": "Lynx Of Fallen Shadow",
+      "Expansion": "Endwalker",
+      "Fight": "EX6 - Golbez",
+      "Content": "EX6"
+    },
+    {
+      "ID": "f78231f7cbd1d8fd2ecd39a8eee365b6cd511ced",
+      "Name": "Lynx Of Abyssal Grief",
+      "Expansion": "Endwalker",
+      "Fight": "EX7 - Zeromus",
+      "Content": "EX7"
+    },
+    {
+      "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
+      "Name": "Wings of Ruin",
+      "Expansion": "Dawntrail",
+      "Fight": "EX1 - Worqor Lador",
+      "Content": "EX1"
+    },
+    {
+      "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
+      "Name": "Wings Of Resolve",
+      "Expansion": "Dawntrail",
+      "Fight": "EX2 - Everkeep",
+      "Content": "EX2"
+    },
+    {
+      "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
+      "Name": "Wings Of Eternity",
+      "Expansion": "Dawntrail",
+      "Fight": "EX3 - Minstrel's Ballad: Sphene's Burden",
       "Content": "EX3"
     }
   ]

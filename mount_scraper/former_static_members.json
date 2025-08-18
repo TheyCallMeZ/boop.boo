@@ -44,5 +44,12 @@
     "homeWorld": "Leviathan",
     "job": "Warrior",
     "status": "ft"
+  },
+  {
+    "name": "Nerubo Aristor",
+    "lodestoneId": "17795669",
+    "homeWorld": "Leviathan",
+    "job": "DarkKnight",
+    "status": "ft"
   }
 ]

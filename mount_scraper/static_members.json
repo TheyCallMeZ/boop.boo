@@ -42,7 +42,7 @@
     "status": "ft"
   },
   {
-    "name": "Aerosa Auditore",
+    "name": "Aero Auditore",
     "lodestoneId": "32056005",
     "homeWorld": "Famfrit",
     "job": "Warrior",
@@ -56,10 +56,10 @@
     "status": "ft"
   },
     {
-    "name": "Nerubo Aristor",
-    "lodestoneId": "17795669",
-    "homeWorld": "Leviathan",
-    "job": "DarkKnight",
+    "name": "Morriko Okami",
+    "lodestoneId": "46410179",
+    "homeWorld": "Exodus",
+    "job": "GunBreaker",
     "status": "ft"
   }
 
