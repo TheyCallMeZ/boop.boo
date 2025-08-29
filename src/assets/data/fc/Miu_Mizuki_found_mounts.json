@@ -1,11 +1,11 @@
 {
-  "name": "Astrum Solaris",
-  "job": "Reaper",
+  "name": "Miu Mizuki",
+  "job": "WhiteMage",
   "homeWorld": "Hyperion",
-  "lodestoneId": "35364003",
-  "status": "pt",
-  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/35364003",
-  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/35364003/mount",
+  "lodestoneId": "22910919",
+  "status": "ft",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/22910919",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/22910919/mount",
   "mounts": [
     {
       "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
@@ -34,13 +34,6 @@
       "Expansion": "Shadowbringers",
       "Fight": "Eden's Verse: Refulgence (Savage)",
       "Content": "Savage 2"
-    },
-    {
-      "ID": "2e62aa54ed32ead4f20ba10f5795bfeec9f70471",
-      "Name": "Megaloambystoma",
-      "Expansion": "Endwalker",
-      "Fight": "Anabaseios: The Twelfth Circle (Savage)",
-      "Content": "Savage 3"
     },
     {
       "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
@@ -260,13 +253,6 @@
       "Content": "EX3"
     },
     {
-      "ID": "5aaf588bc303bafada076f0f464eae7b566997b5",
-      "Name": "Lynx Of Imperious Wind",
-      "Expansion": "Endwalker",
-      "Fight": "EX4 - Barbariccia",
-      "Content": "EX4"
-    },
-    {
       "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
       "Name": "Lynx Of Righteous Fire",
       "Expansion": "Endwalker",
@@ -279,13 +265,6 @@
       "Expansion": "Endwalker",
       "Fight": "EX6 - Golbez",
       "Content": "EX6"
-    },
-    {
-      "ID": "f78231f7cbd1d8fd2ecd39a8eee365b6cd511ced",
-      "Name": "Lynx Of Abyssal Grief",
-      "Expansion": "Endwalker",
-      "Fight": "EX7 - Zeromus",
-      "Content": "EX7"
     },
     {
       "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
@@ -307,13 +286,6 @@
       "Expansion": "Dawntrail",
       "Fight": "EX3 - Minstrel's Ballad: Sphene's Burden",
       "Content": "EX3"
-    },
-    {
-      "ID": "7c5aae58c30d8b16c41e232f3a85bc25661f9924",
-      "Name": "Wings of The Knighthood",
-      "Expansion": "Dawntrail",
-      "Fight": "EX4 - Recollection (Extreme)",
-      "Content": "EX4"
     }
   ]
 }

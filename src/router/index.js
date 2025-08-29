@@ -52,6 +52,11 @@ const routes = [
     name: "FFXIV Static Mount Checklist",
     component: () => import("@/components/StaticMounts.vue"),
   },
+  {
+    path: "/fc",
+    name: "FFXIV FC Mount Checklist",
+    component: () => import("@/components/FcMounts.vue"),
+  },
 ];
 
 const router = createRouter({

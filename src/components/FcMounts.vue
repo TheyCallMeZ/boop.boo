@@ -74,7 +74,7 @@ export default {
   data() {
     return {
       selectedExpansion: "Dawntrail",
-      dataFiles: getDataFiles("static"),
+      dataFiles: getDataFiles("fc"),
       headers: [
         "EX1",
         "EX2",

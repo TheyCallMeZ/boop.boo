@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Astrum Solaris",
+    "lodestoneId": "35364003",
+    "homeWorld": "Hyperion",
+    "job": "Reaper",
+    "status": "ft"
+  },
+  {
+    "name": "Miu Mizuki",
+    "lodestoneId": "22910919",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "WhiteMage"
+  },
+  {
+    "name": "Catrina Kitty",
+    "lodestoneId": "8819591",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "Warrior"
+  },
+  {
+    "name": "Geraldo Baggins",
+    "lodestoneId": "8182124",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "RedMage"
+  },
+  {
+    "name": "Selteus Orias",
+    "lodestoneId": "15881934",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "Paladin"
+  },
+  {
+    "name": "Sylvie Stardust",
+    "lodestoneId": "13392136",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "Dancer"
+  },
+  {
+    "name": "Holland Gallifrey",
+    "lodestoneId": "2817192",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "Dragoon"
+  }
+]
