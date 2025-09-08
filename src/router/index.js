@@ -57,6 +57,11 @@ const routes = [
     name: "FFXIV FC Mount Checklist",
     component: () => import("@/components/FcMounts.vue"),
   },
+  {
+    path: "/anxiety",
+    name: "Anxiety Timer",
+    component: () => import("@/components/CountDown.vue"),
+  },
 ];
 
 const router = createRouter({
