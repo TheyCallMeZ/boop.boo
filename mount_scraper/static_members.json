@@ -7,18 +7,20 @@
     "status": "ft"
   },
   {
-    "name": "Adri'nne Wyntesol",
+    "name": "Ephelenia Judicieux",
     "lodestoneId": "46957960",
     "homeWorld": "Exodus",
     "job": "Sage",
-    "status": "ft"
+    "status": "ft",
+    "note": "formerly adri"
   },
   {
-    "name": "Rurumei Wyntesol",
+    "name": "A'misandara Judicieux",
     "lodestoneId": "46970878",
     "homeWorld": "Exodus",
     "job": "Machinist",
-    "status": "ft"
+    "status": "ft",
+    "note": "formerly ruru"
   },
   {
     "name": "Zhoesaph Edeline",

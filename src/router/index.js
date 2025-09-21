@@ -62,6 +62,11 @@ const routes = [
     name: "Anxiety Timer",
     component: () => import("@/components/CountDown.vue"),
   },
+  {
+    path: "/qr",
+    name: "QR Code Generator",
+    component: () => import("@/components/qrCodeMaker.vue"),
+  },
 ];
 
 const router = createRouter({

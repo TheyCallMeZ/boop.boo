@@ -1,11 +1,11 @@
 {
-  "name": "Rurumei Wyntesol",
-  "job": "Machinist",
+  "name": "Ephelenia Judicieux",
+  "job": "Sage",
   "homeWorld": "Exodus",
-  "lodestoneId": "46970878",
+  "lodestoneId": "46957960",
   "status": "ft",
-  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/46970878",
-  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/46970878/mount",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/46957960",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/46957960/mount",
   "mounts": [
     {
       "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
@@ -211,6 +211,13 @@
       "Content": "EX6"
     },
     {
+      "ID": "d1e21dd84cd1ade35db3b4d8433c40abffd56c2c",
+      "Name": "Diamond Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX7 - The Diamond Weapon",
+      "Content": "EX7"
+    },
+    {
       "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
       "Name": "Lynx Of Eternal Darkness",
       "Expansion": "Endwalker",
@@ -230,6 +237,13 @@
       "Expansion": "Endwalker",
       "Fight": "EX3 - Endsinger",
       "Content": "EX3"
+    },
+    {
+      "ID": "5aaf588bc303bafada076f0f464eae7b566997b5",
+      "Name": "Lynx Of Imperious Wind",
+      "Expansion": "Endwalker",
+      "Fight": "EX4 - Barbariccia",
+      "Content": "EX4"
     },
     {
       "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
@@ -258,13 +272,6 @@
       "Expansion": "Dawntrail",
       "Fight": "EX2 - Everkeep",
       "Content": "EX2"
-    },
-    {
-      "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
-      "Name": "Wings Of Eternity",
-      "Expansion": "Dawntrail",
-      "Fight": "EX3 - Minstrel's Ballad: Sphene's Burden",
-      "Content": "EX3"
     }
   ]
 }
