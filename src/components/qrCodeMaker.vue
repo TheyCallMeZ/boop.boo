@@ -83,6 +83,7 @@
         width="400"
         height="400"
       ></canvas>
+      <br />
       <!-- SVG container -->
       <div v-show="outputFormat === 'SVG'">
         <div
