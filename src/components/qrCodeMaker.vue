@@ -43,6 +43,21 @@
         </div>
       </div>
 
+      <!-- Output format selector -->
+      <div class="qr-generator__input-group">
+        <label for="format-input" class="qr-generator__label"
+          >Output format:</label
+        >
+        <select
+          id="format-input"
+          v-model="outputFormat"
+          class="qr-generator__input"
+        >
+          <option value="PNG">PNG</option>
+          <option value="SVG">SVG</option>
+        </select>
+      </div>
+
       <button
         @click="generateQR"
         :disabled="!url || isGenerating"
@@ -57,15 +72,25 @@
       {{ error }}
     </div>
 
-    <!-- Render the canvas while generating or after generated so $refs is available -->
+    <!-- Render the result while generating or after generated so $refs is available -->
     <div v-show="qrGenerated || isGenerating" class="qr-generator__result">
       <h3 class="qr-generator__result-title">Your QR Code:</h3>
+      <!-- PNG canvas -->
       <canvas
+        v-show="outputFormat === 'PNG'"
         ref="qrCanvas"
         class="qr-generator__canvas"
         width="400"
         height="400"
       ></canvas>
+      <!-- SVG container -->
+      <div v-show="outputFormat === 'SVG'">
+        <div
+          class="qr-generator__canvas"
+          v-html="svgMarkup"
+          aria-label="QR Code SVG"
+        ></div>
+      </div>
       <button @click="downloadQR" class="qr-generator__download-button">
         Download QR Code
       </button>
@@ -83,6 +108,8 @@ export default {
       isGenerating: false,
       qrGenerated: false,
       error: null,
+      outputFormat: "PNG",
+      svgMarkup: "",
     };
   },
   methods: {
@@ -102,7 +129,7 @@ export default {
         this.isGenerating = true;
         this.error = null;
 
-        // Ensure the canvas is in the DOM before drawing
+        // Ensure the canvas is in the DOM before drawing (for PNG)
         if (!this.qrGenerated) {
           this.qrGenerated = true;
           await this.$nextTick();
@@ -130,12 +157,21 @@ export default {
             const script = document.createElement("script");
             script.src =
               "https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js";
-            script.onload = () =>
-              this.drawQRCode(url, logoFile, resolve, reject);
+            script.onload = () => {
+              if (this.outputFormat === "SVG") {
+                this.drawQRCodeSVG(url, logoFile, resolve, reject);
+              } else {
+                this.drawQRCodePNG(url, logoFile, resolve, reject);
+              }
+            };
             script.onerror = reject;
             document.head.appendChild(script);
           } else {
-            this.drawQRCode(url, logoFile, resolve, reject);
+            if (this.outputFormat === "SVG") {
+              this.drawQRCodeSVG(url, logoFile, resolve, reject);
+            } else {
+              this.drawQRCodePNG(url, logoFile, resolve, reject);
+            }
           }
         } catch (err) {
           reject(err);
@@ -143,7 +179,8 @@ export default {
       });
     },
 
-    drawQRCode(url, logoFile, resolve, reject) {
+    // PNG path (existing logic moved here)
+    drawQRCodePNG(url, logoFile, resolve, reject) {
       const canvas = this.$refs.qrCanvas;
       if (!canvas) {
         reject(new Error("Canvas not available"));
@@ -188,6 +225,8 @@ export default {
 
       // If no logo provided, we're done
       if (!logoFile) {
+        // Clear any prior SVG
+        this.svgMarkup = "";
         resolve();
         return;
       }
@@ -238,6 +277,8 @@ export default {
             logoHeight + padding * 2
           );
 
+          // Clear any prior SVG
+          this.svgMarkup = "";
           resolve();
         };
         img.onerror = reject;
@@ -247,12 +288,170 @@ export default {
       reader.readAsDataURL(logoFile);
     },
 
+    // SVG path
+    drawQRCodeSVG(url, logoFile, resolve, reject) {
+      try {
+        const qr = window.qrcode(0, "M");
+        qr.addData(url);
+        qr.make();
+
+        const moduleCount = qr.getModuleCount();
+
+        // Aim for ~400px size like the canvas. Compute integer cell size.
+        const targetSize = 400;
+        const cellSize = Math.max(1, Math.floor(targetSize / moduleCount));
+        const margin = 0; // we draw full-bleed like canvas
+        const totalSize = moduleCount * cellSize + margin * 2 * cellSize;
+
+        // Base SVG tag from lib (black on white)
+        const baseSvg = qr.createSvgTag({
+          cellSize,
+          margin,
+        });
+
+        // Parse to DOM so we can inject logo/background and class
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(baseSvg, "image/svg+xml");
+        const svgEl = doc.documentElement;
+
+        // Ensure fixed width/height to match our layout and apply class for styling parity
+        svgEl.setAttribute("width", String(totalSize));
+        svgEl.setAttribute("height", String(totalSize));
+        svgEl.setAttribute("viewBox", `0 0 ${totalSize} ${totalSize}`);
+        // Apply same class used for canvas so page styling remains consistent
+        svgEl.setAttribute("class", "qr-generator__canvas");
+
+        // Inject logo if provided
+        const finalize = (dataUrl) => {
+          if (dataUrl) {
+            // Calculate logo size and position (20% of total size)
+            const maxLogoSize = totalSize * 0.2;
+            // We don't know aspect until image loads, but with SVG <image> we can still place it square;
+            // for better quality, compute by reading image size via offscreen Image
+            const img = new Image();
+            img.onload = () => {
+              const imgAspect = img.width / img.height;
+              let logoW, logoH;
+              if (imgAspect > 1) {
+                logoW = maxLogoSize;
+                logoH = maxLogoSize / imgAspect;
+              } else {
+                logoH = maxLogoSize;
+                logoW = maxLogoSize * imgAspect;
+              }
+              const padding = 10;
+              const x = (totalSize - logoW) / 2;
+              const y = (totalSize - logoH) / 2;
+
+              // White background rect under the logo
+              const bg = doc.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "rect"
+              );
+              bg.setAttribute("x", String(x - padding));
+              bg.setAttribute("y", String(y - padding));
+              bg.setAttribute("width", String(logoW + padding * 2));
+              bg.setAttribute("height", String(logoH + padding * 2));
+              bg.setAttribute("fill", "#ffffff");
+              svgEl.appendChild(bg);
+
+              // Logo image
+              const imageEl = doc.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "image"
+              );
+              imageEl.setAttribute("x", String(x));
+              imageEl.setAttribute("y", String(y));
+              imageEl.setAttribute("width", String(logoW));
+              imageEl.setAttribute("height", String(logoH));
+              imageEl.setAttributeNS(
+                "http://www.w3.org/1999/xlink",
+                "xlink:href",
+                dataUrl
+              );
+              imageEl.setAttributeNS(
+                "http://www.w3.org/1999/xlink",
+                "href",
+                dataUrl
+              );
+              svgEl.appendChild(imageEl);
+
+              // Subtle border
+              const border = doc.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "rect"
+              );
+              border.setAttribute("x", String(x - padding));
+              border.setAttribute("y", String(y - padding));
+              border.setAttribute("width", String(logoW + padding * 2));
+              border.setAttribute("height", String(logoH + padding * 2));
+              border.setAttribute("fill", "none");
+              border.setAttribute("stroke", "#dddddd");
+              border.setAttribute("stroke-width", "2");
+              svgEl.appendChild(border);
+
+              // Serialize back to string
+              const serializer = new XMLSerializer();
+              this.svgMarkup = serializer.serializeToString(svgEl);
+              resolve();
+            };
+            img.onerror = () => {
+              // If image fails, still provide QR without logo
+              const serializer = new XMLSerializer();
+              this.svgMarkup = serializer.serializeToString(svgEl);
+              resolve();
+            };
+            img.src = dataUrl;
+          } else {
+            const serializer = new XMLSerializer();
+            this.svgMarkup = serializer.serializeToString(svgEl);
+            resolve();
+          }
+        };
+
+        if (!logoFile) {
+          finalize(null);
+          return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          finalize(e.target.result);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(logoFile);
+      } catch (e) {
+        reject(e);
+      }
+    },
+
     downloadQR() {
-      const canvas = this.$refs.qrCanvas;
-      const link = document.createElement("a");
-      link.download = "qr-code-with-logo.png";
-      link.href = canvas.toDataURL();
-      link.click();
+      if (this.outputFormat === "SVG") {
+        if (!this.svgMarkup) {
+          this.showError("Please generate the QR code first.");
+          return;
+        }
+        const blob = new Blob([this.svgMarkup], {
+          type: "image/svg+xml;charset=utf-8",
+        });
+        const link = document.createElement("a");
+        link.download = "qr-code-with-logo.svg";
+        link.href = URL.createObjectURL(blob);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(link.href);
+      } else {
+        const canvas = this.$refs.qrCanvas;
+        if (!canvas) {
+          this.showError("Please generate the QR code first.");
+          return;
+        }
+        const link = document.createElement("a");
+        link.download = "qr-code-with-logo.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+      }
 
       this.$emit("qr-downloaded", {
         url: this.url,
@@ -273,6 +472,7 @@ export default {
       this.selectedFile = null;
       this.qrGenerated = false;
       this.error = null;
+      this.svgMarkup = "";
       if (this.$refs.logoInput) {
         this.$refs.logoInput.value = "";
       }
@@ -424,12 +624,14 @@ export default {
   font-size: 1.3rem;
 }
 
+/* Apply same framing to both canvas and svg */
 .qr-generator__canvas {
   border: 2px solid #e0e0e0;
   border-radius: 0.5rem;
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  display: inline-block;
 }
 
 .qr-generator__download-button {
