@@ -188,28 +188,20 @@ export default {
       }
       const ctx = canvas.getContext("2d");
 
-      // Set canvas size
       canvas.width = 400;
       canvas.height = 400;
 
-      // Generate QR code using qrcode-generator
       const qr = window.qrcode(0, "M");
       qr.addData(url);
       qr.make();
 
-      // Get the module count (size of QR code grid)
       const moduleCount = qr.getModuleCount();
       const cellSize = canvas.width / moduleCount;
 
-      // Clear canvas
+      // Make background transparent: do NOT paint any white rect
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      // Draw QR code
-      ctx.fillStyle = "#FFFFFF";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
       ctx.fillStyle = "#000000";
-      // Use Math.ceil to ensure no gaps between squares
       for (let row = 0; row < moduleCount; row++) {
         for (let col = 0; col < moduleCount; col++) {
           if (qr.isDark(row, col)) {
@@ -223,30 +215,24 @@ export default {
         }
       }
 
-      // If no logo provided, we're done
       if (!logoFile) {
-        // Clear any prior SVG
         this.svgMarkup = "";
         resolve();
         return;
       }
 
-      // Load and draw the logo
       const reader = new FileReader();
       reader.onload = (e) => {
         const img = new Image();
         img.onload = () => {
-          // Calculate logo size maintaining aspect ratio
           const maxLogoSize = canvas.width * 0.2;
           const imgAspectRatio = img.width / img.height;
 
           let logoWidth, logoHeight;
           if (imgAspectRatio > 1) {
-            // Image is wider than tall
             logoWidth = maxLogoSize;
             logoHeight = maxLogoSize / imgAspectRatio;
           } else {
-            // Image is taller than wide or square
             logoHeight = maxLogoSize;
             logoWidth = maxLogoSize * imgAspectRatio;
           }
@@ -254,30 +240,9 @@ export default {
           const logoX = (canvas.width - logoWidth) / 2;
           const logoY = (canvas.height - logoHeight) / 2;
 
-          // Create a white background for the logo
-          const padding = 10;
-          ctx.fillStyle = "white";
-          ctx.fillRect(
-            logoX - padding,
-            logoY - padding,
-            logoWidth + padding * 2,
-            logoHeight + padding * 2
-          );
-
-          // Draw the logo with maintained aspect ratio
+          // Do NOT draw any white background or border for logo (keep full transparency)
           ctx.drawImage(img, logoX, logoY, logoWidth, logoHeight);
 
-          // Add a subtle border around the logo
-          ctx.strokeStyle = "#ddd";
-          ctx.lineWidth = 2;
-          ctx.strokeRect(
-            logoX - padding,
-            logoY - padding,
-            logoWidth + padding * 2,
-            logoHeight + padding * 2
-          );
-
-          // Clear any prior SVG
           this.svgMarkup = "";
           resolve();
         };
@@ -296,38 +261,46 @@ export default {
         qr.make();
 
         const moduleCount = qr.getModuleCount();
-
-        // Aim for ~400px size like the canvas. Compute integer cell size.
         const targetSize = 400;
         const cellSize = Math.max(1, Math.floor(targetSize / moduleCount));
-        const margin = 0; // we draw full-bleed like canvas
+        const margin = 0;
         const totalSize = moduleCount * cellSize + margin * 2 * cellSize;
 
-        // Base SVG tag from lib (black on white)
         const baseSvg = qr.createSvgTag({
           cellSize,
           margin,
         });
 
-        // Parse to DOM so we can inject logo/background and class
         const parser = new DOMParser();
         const doc = parser.parseFromString(baseSvg, "image/svg+xml");
         const svgEl = doc.documentElement;
 
-        // Ensure fixed width/height to match our layout and apply class for styling parity
         svgEl.setAttribute("width", String(totalSize));
         svgEl.setAttribute("height", String(totalSize));
         svgEl.setAttribute("viewBox", `0 0 ${totalSize} ${totalSize}`);
-        // Apply same class used for canvas so page styling remains consistent
         svgEl.setAttribute("class", "qr-generator__canvas");
+        // Hint renderers not to add anti-aliasing gaps
+        svgEl.setAttribute("shape-rendering", "crispEdges");
+        // Ensure no background is painted
+        svgEl.setAttribute("style", "background: none;");
 
-        // Inject logo if provided
+        // Remove any white background rectangles the generator adds
+        const rects = Array.from(svgEl.querySelectorAll("rect"));
+        rects.forEach((r) => {
+          const fill = (r.getAttribute("fill") || "").toLowerCase();
+          if (
+            fill === "#fff" ||
+            fill === "#ffffff" ||
+            fill === "white" ||
+            fill.includes("rgb(255")
+          ) {
+            r.parentNode && r.parentNode.removeChild(r);
+          }
+        });
+
         const finalize = (dataUrl) => {
           if (dataUrl) {
-            // Calculate logo size and position (20% of total size)
             const maxLogoSize = totalSize * 0.2;
-            // We don't know aspect until image loads, but with SVG <image> we can still place it square;
-            // for better quality, compute by reading image size via offscreen Image
             const img = new Image();
             img.onload = () => {
               const imgAspect = img.width / img.height;
@@ -339,23 +312,10 @@ export default {
                 logoH = maxLogoSize;
                 logoW = maxLogoSize * imgAspect;
               }
-              const padding = 10;
               const x = (totalSize - logoW) / 2;
               const y = (totalSize - logoH) / 2;
 
-              // White background rect under the logo
-              const bg = doc.createElementNS(
-                "http://www.w3.org/2000/svg",
-                "rect"
-              );
-              bg.setAttribute("x", String(x - padding));
-              bg.setAttribute("y", String(y - padding));
-              bg.setAttribute("width", String(logoW + padding * 2));
-              bg.setAttribute("height", String(logoH + padding * 2));
-              bg.setAttribute("fill", "#ffffff");
-              svgEl.appendChild(bg);
-
-              // Logo image
+              // Do NOT add white background or border in SVG
               const imageEl = doc.createElementNS(
                 "http://www.w3.org/2000/svg",
                 "image"
@@ -376,27 +336,11 @@ export default {
               );
               svgEl.appendChild(imageEl);
 
-              // Subtle border
-              const border = doc.createElementNS(
-                "http://www.w3.org/2000/svg",
-                "rect"
-              );
-              border.setAttribute("x", String(x - padding));
-              border.setAttribute("y", String(y - padding));
-              border.setAttribute("width", String(logoW + padding * 2));
-              border.setAttribute("height", String(logoH + padding * 2));
-              border.setAttribute("fill", "none");
-              border.setAttribute("stroke", "#dddddd");
-              border.setAttribute("stroke-width", "2");
-              svgEl.appendChild(border);
-
-              // Serialize back to string
               const serializer = new XMLSerializer();
               this.svgMarkup = serializer.serializeToString(svgEl);
               resolve();
             };
             img.onerror = () => {
-              // If image fails, still provide QR without logo
               const serializer = new XMLSerializer();
               this.svgMarkup = serializer.serializeToString(svgEl);
               resolve();
@@ -415,9 +359,7 @@ export default {
         }
 
         const reader = new FileReader();
-        reader.onload = (e) => {
-          finalize(e.target.result);
-        };
+        reader.onload = (e) => finalize(e.target.result);
         reader.onerror = reject;
         reader.readAsDataURL(logoFile);
       } catch (e) {
@@ -626,8 +568,8 @@ export default {
 
 /* Apply same framing to both canvas and svg */
 .qr-generator__canvas {
-  border: 2px solid #e0e0e0;
-  border-radius: 0.5rem;
+  border: none; /* ensure no CSS border */
+  border-radius: 0; /* remove rounding that may imply a frame */
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
