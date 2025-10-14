@@ -55,6 +55,13 @@
     "lodestoneId": "46410179",
     "homeWorld": "Exodus",
     "job": "Gunbreaker",
+    "status": "pt"
+  },
+  {
+    "name": "Karali Seirol",
+    "lodestoneId": "4386364",
+    "homeWorld": "Excalibur",
+    "job": "Gunbreaker",
     "status": "ft"
   }
 
