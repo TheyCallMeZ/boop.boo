@@ -67,6 +67,11 @@ const routes = [
     name: "QR Code Generator",
     component: () => import("@/components/qrCodeMaker.vue"),
   },
+  {
+    path: "/nelnet",
+    name: "Nelnet Data Converter",
+    component: () => import("@/components/NelnetConverter.vue"),
+  },
 ];
 
 const router = createRouter({

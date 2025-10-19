@@ -1,11 +1,11 @@
 {
-  "name": "Karali Seirol",
+  "name": "Akiko Navli",
   "job": "Gunbreaker",
-  "homeWorld": "Excalibur",
-  "lodestoneId": "4386364",
+  "homeWorld": "Hyperion",
+  "lodestoneId": "30260304",
   "status": "ft",
-  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/4386364",
-  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/4386364/mount",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/30260304",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/30260304/mount",
   "mounts": [
     {
       "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
@@ -22,11 +22,25 @@
       "Content": "Savage 2"
     },
     {
+      "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+      "Name": "Sunforged",
+      "Expansion": "Endwalker",
+      "Fight": "Abyssos: The Eighth Circle (Savage)",
+      "Content": "Savage 2"
+    },
+    {
       "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
       "Name": "Ramuh",
       "Expansion": "Shadowbringers",
       "Fight": "Eden's Verse: Refulgence (Savage)",
       "Content": "Savage 2"
+    },
+    {
+      "ID": "2e62aa54ed32ead4f20ba10f5795bfeec9f70471",
+      "Name": "Megaloambystoma",
+      "Expansion": "Endwalker",
+      "Fight": "Anabaseios: The Twelfth Circle (Savage)",
+      "Content": "Savage 3"
     },
     {
       "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
@@ -41,6 +55,13 @@
       "Expansion": "Stormblood",
       "Fight": "Alphascape V4.0 (Savage)",
       "Content": "Savage 3"
+    },
+    {
+      "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
+      "Name": "Monowheel S1",
+      "Expansion": "Dawntrail",
+      "Fight": "AAC Light-heavyweight M4 (Savage)",
+      "Content": "Savage 1"
     },
     {
       "ID": "859066dbd978b16beac4d0995aeb2c4945a19fa5",
@@ -183,11 +204,25 @@
       "Content": "EX2"
     },
     {
+      "ID": "15041a6511dc3c4f84375aa3506191939126384a",
+      "Name": "Shadow Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX3 - Hades",
+      "Content": "EX3"
+    },
+    {
       "ID": "e07bf0bd4f27a55c7347e8bd5fc0cc7d9c9751f6",
       "Name": "Ruby Gwiber",
       "Expansion": "Shadowbringers",
       "Fight": "EX4 - The Ruby Weapon",
       "Content": "EX4"
+    },
+    {
+      "ID": "9aa42147d7fa50e67aa0e98cf2559d9eff1b5c8d",
+      "Name": "Gwiber Of Light",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX5 - Warrior of Light",
+      "Content": "EX5"
     },
     {
       "ID": "b4e34b2e30da1041034ee96c20d06d2b6bd981ea",
@@ -202,6 +237,76 @@
       "Expansion": "Shadowbringers",
       "Fight": "EX7 - The Diamond Weapon",
       "Content": "EX7"
+    },
+    {
+      "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
+      "Name": "Lynx Of Eternal Darkness",
+      "Expansion": "Endwalker",
+      "Fight": "EX1 - Zodiark",
+      "Content": "EX1"
+    },
+    {
+      "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
+      "Name": "Lynx Of Divine Light",
+      "Expansion": "Endwalker",
+      "Fight": "EX2 - Hydaelyn",
+      "Content": "EX2"
+    },
+    {
+      "ID": "88d8d30b3643a33bb64fd2bdd158e2cbc5a063c6",
+      "Name": "Bluefeather Lynx",
+      "Expansion": "Endwalker",
+      "Fight": "EX3 - Endsinger",
+      "Content": "EX3"
+    },
+    {
+      "ID": "5aaf588bc303bafada076f0f464eae7b566997b5",
+      "Name": "Lynx Of Imperious Wind",
+      "Expansion": "Endwalker",
+      "Fight": "EX4 - Barbariccia",
+      "Content": "EX4"
+    },
+    {
+      "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
+      "Name": "Lynx Of Righteous Fire",
+      "Expansion": "Endwalker",
+      "Fight": "EX5 - Rubicante",
+      "Content": "EX5"
+    },
+    {
+      "ID": "78296dcfa7646aeb81e2da8ff963cac03ef72488",
+      "Name": "Lynx Of Fallen Shadow",
+      "Expansion": "Endwalker",
+      "Fight": "EX6 - Golbez",
+      "Content": "EX6"
+    },
+    {
+      "ID": "f78231f7cbd1d8fd2ecd39a8eee365b6cd511ced",
+      "Name": "Lynx Of Abyssal Grief",
+      "Expansion": "Endwalker",
+      "Fight": "EX7 - Zeromus",
+      "Content": "EX7"
+    },
+    {
+      "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
+      "Name": "Wings of Ruin",
+      "Expansion": "Dawntrail",
+      "Fight": "EX1 - Worqor Lador",
+      "Content": "EX1"
+    },
+    {
+      "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
+      "Name": "Wings Of Resolve",
+      "Expansion": "Dawntrail",
+      "Fight": "EX2 - Everkeep",
+      "Content": "EX2"
+    },
+    {
+      "ID": "89cdf7b894488141c196c3a30b121d1e77d949f6",
+      "Name": "Wings of Death",
+      "Expansion": "Dawntrail",
+      "Fight": "EX5 - The Minstrel's Ballad: Necron's Embrace",
+      "Content": "EX5"
     }
   ]
 }
