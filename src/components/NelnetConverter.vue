@@ -41,6 +41,22 @@
           <button @click="saveToLocalStorage" class="btn btn-success">
             💾 Save Mappings
           </button>
+
+          <button @click="exportMappings" class="btn btn-export">
+            📤 Export Preset
+          </button>
+
+          <button @click="triggerImport" class="btn btn-import">
+            📥 Import Preset
+          </button>
+
+          <input
+            ref="importInput"
+            type="file"
+            accept=".json"
+            style="display: none"
+            @change="importMappings"
+          />
         </div>
       </div>
 
@@ -250,6 +266,85 @@ export default {
         console.error("Failed to save mappings:", e);
         this.showStatus("Failed to save mappings", "error");
       }
+    },
+
+    exportMappings() {
+      try {
+        const dataStr = JSON.stringify(this.accountMappings, null, 2);
+        const blob = new Blob([dataStr], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `nelnet-mappings-${
+          new Date().toISOString().split("T")[0]
+        }.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        this.showStatus("Mappings exported successfully!", "success");
+        this.$emit("mappings-exported", this.accountMappings);
+      } catch (e) {
+        console.error("Failed to export mappings:", e);
+        this.showStatus("Failed to export mappings", "error");
+      }
+    },
+
+    triggerImport() {
+      this.$refs.importInput.click();
+    },
+
+    importMappings(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const importedMappings = JSON.parse(e.target.result);
+
+          // Validate the imported data
+          if (!Array.isArray(importedMappings)) {
+            throw new Error("Invalid format: Expected an array of mappings");
+          }
+
+          // Validate each mapping has required fields
+          const isValid = importedMappings.every(
+            (mapping) =>
+              mapping &&
+              typeof mapping === "object" &&
+              "group" in mapping &&
+              "account" in mapping
+          );
+
+          if (!isValid) {
+            throw new Error(
+              "Invalid format: Each mapping must have 'group' and 'account' fields"
+            );
+          }
+
+          this.accountMappings = importedMappings;
+          this.showStatus(
+            `Successfully imported ${importedMappings.length} mappings!`,
+            "success"
+          );
+          this.$emit("mappings-imported", this.accountMappings);
+
+          // Optionally auto-save to localStorage
+          this.saveToLocalStorage();
+        } catch (error) {
+          console.error("Failed to import mappings:", error);
+          this.showStatus(`Failed to import: ${error.message}`, "error");
+        } finally {
+          // Reset the input so the same file can be imported again
+          event.target.value = "";
+        }
+      };
+
+      reader.onerror = () => {
+        this.showStatus("Failed to read file", "error");
+        event.target.value = "";
+      };
+
+      reader.readAsText(file);
     },
 
     processData() {
@@ -554,6 +649,7 @@ export default {
   font-family: monospace;
   font-size: 13px;
   resize: vertical;
+  box-sizing: border-box;
 }
 
 .data-input:focus {
@@ -731,6 +827,24 @@ export default {
 
 .btn-success:hover {
   background: #059669;
+}
+
+.btn-export {
+  background: #f59e0b;
+  color: white;
+}
+
+.btn-export:hover {
+  background: #d97706;
+}
+
+.btn-import {
+  background: #06b6d4;
+  color: white;
+}
+
+.btn-import:hover {
+  background: #0891b2;
 }
 
 .btn-process {
