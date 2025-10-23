@@ -78,7 +78,8 @@
         </button>
 
         <select v-model="outputFormat" class="format-select">
-          <option value="csv">CSV Format</option>
+          <option value="csv">CSV Format (Single File)</option>
+          <option value="zip">CSV per Account (Zipped)</option>
           <option value="json">JSON Format</option>
         </select>
       </div>
@@ -218,6 +219,7 @@ export default {
       summary: null,
       statusMessage: "",
       statusType: "success",
+      zipBlob: null,
     };
   },
 
@@ -347,7 +349,7 @@ export default {
       reader.readAsText(file);
     },
 
-    processData() {
+    async processData() {
       try {
         if (!this.inputData.trim()) {
           this.showStatus("Please paste Nelnet payment data first", "error");
@@ -422,6 +424,27 @@ export default {
 
         if (this.outputFormat === "csv") {
           this.outputData = this.generateCSV(transactions);
+        } else if (this.outputFormat === "zip") {
+          await this.generateZippedCSVs(transactions);
+          // Generate a preview of all the CSVs that will be in the zip
+          const accountGroups = {};
+          transactions.forEach((t) => {
+            if (!accountGroups[t.account]) {
+              accountGroups[t.account] = [];
+            }
+            accountGroups[t.account].push(t);
+          });
+
+          let preview = "Preview of files in zip:\n\n";
+          Object.keys(accountGroups).forEach((accountName) => {
+            const safeFileName = accountName
+              .replace(/[^a-z0-9]/gi, "_")
+              .toLowerCase();
+            preview += `=== ${safeFileName}.csv ===\n`;
+            preview += this.generateSimpleCSV(accountGroups[accountName]);
+            preview += "\n\n";
+          });
+          this.outputData = preview;
         } else {
           this.outputData = JSON.stringify(transactions, null, 2);
         }
@@ -455,6 +478,107 @@ export default {
       }
     },
 
+    formatDateToYYYYMMDD(dateString) {
+      // Parse the date string (handles formats like MM/DD/YYYY or other formats)
+      const date = new Date(dateString);
+
+      // Check if date is valid
+      if (isNaN(date.getTime())) {
+        return dateString; // Return original if can't parse
+      }
+
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+
+      return `${year}-${month}-${day}`;
+    },
+
+    async loadJSZip() {
+      return new Promise((resolve, reject) => {
+        if (window.JSZip) {
+          resolve();
+          return;
+        }
+        const script = document.createElement("script");
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";
+        script.onload = resolve;
+        script.onerror = reject;
+        document.head.appendChild(script);
+      });
+    },
+
+    async generateZippedCSVs(transactions) {
+      // Load JSZip if not already loaded
+      await this.loadJSZip();
+
+      // Group transactions by account
+      const accountGroups = {};
+      transactions.forEach((t) => {
+        if (!accountGroups[t.account]) {
+          accountGroups[t.account] = [];
+        }
+        accountGroups[t.account].push(t);
+      });
+
+      // Create a zip file
+      const zip = new window.JSZip();
+
+      // Generate CSV for each account
+      Object.keys(accountGroups).forEach((accountName) => {
+        const accountTransactions = accountGroups[accountName];
+        const csvContent = this.generateSimpleCSV(accountTransactions);
+
+        // Sanitize filename
+        const safeFileName = accountName
+          .replace(/[^a-z0-9]/gi, "_")
+          .toLowerCase();
+        zip.file(`${safeFileName}.csv`, csvContent);
+      });
+
+      // Store the zip for download
+      this.zipBlob = await zip.generateAsync({ type: "blob" });
+    },
+
+    generateSimpleCSV(transactions) {
+      const headers = [
+        "Date",
+        "Merchant",
+        "Category",
+        "Account",
+        "Original Statement",
+        "Notes",
+        "Amount",
+        "Tags",
+      ];
+
+      // Sort by date (newest first if you want descending order)
+      const sorted = [...transactions].sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB - dateA; // Descending order (newest first)
+      });
+
+      const rows = sorted.map((t) => [
+        this.formatDateToYYYYMMDD(t.date),
+        "Nelnet", // Merchant
+        t.category, // Category (Interest or Loan Principal)
+        t.account, // Account name
+        t.description, // Original Statement
+        "", // Notes (empty)
+        t.amount.toFixed(2), // Amount (already negative for payments)
+        "", // Tags (empty)
+      ]);
+
+      const csvContent = [
+        headers.join(","),
+        ...rows.map((row) => row.map((cell) => `"${cell}"`).join(",")),
+      ].join("\n");
+
+      return csvContent;
+    },
+
     generateCSV(transactions) {
       const headers = ["Date", "Account", "Category", "Description", "Amount"];
       const rows = transactions.map((t) => [
@@ -485,6 +609,23 @@ export default {
     },
 
     downloadFile() {
+      if (this.outputFormat === "zip" && this.zipBlob) {
+        const url = URL.createObjectURL(this.zipBlob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `nelnet_payments_by_account_${
+          new Date().toISOString().split("T")[0]
+        }.zip`;
+        a.click();
+        URL.revokeObjectURL(url);
+        this.showStatus("Zip file downloaded!", "success");
+        this.$emit("file-downloaded", {
+          extension: "zip",
+          data: "zipped files",
+        });
+        return;
+      }
+
       const extension = this.outputFormat === "csv" ? "csv" : "json";
       const mimeType =
         this.outputFormat === "csv" ? "text/csv" : "application/json";
@@ -705,8 +846,10 @@ export default {
   margin: 0;
   font-size: 13px;
   font-family: monospace;
-  white-space: pre-wrap;
-  word-break: break-all;
+  white-space: pre;
+  word-break: normal;
+  overflow-x: auto;
+  color: black;
 }
 
 .summary-section {
@@ -714,6 +857,7 @@ export default {
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
+  color: black;
 }
 
 .summary-title {
