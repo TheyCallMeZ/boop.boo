@@ -253,6 +253,27 @@
       "Content": "EX4"
     },
     {
+      "ID": "fe0cdf5c7c9f8f01297d54915550720263e9101c",
+      "Name": "Lynx Of Righteous Fire",
+      "Expansion": "Endwalker",
+      "Fight": "EX5 - Rubicante",
+      "Content": "EX5"
+    },
+    {
+      "ID": "78296dcfa7646aeb81e2da8ff963cac03ef72488",
+      "Name": "Lynx Of Fallen Shadow",
+      "Expansion": "Endwalker",
+      "Fight": "EX6 - Golbez",
+      "Content": "EX6"
+    },
+    {
+      "ID": "f78231f7cbd1d8fd2ecd39a8eee365b6cd511ced",
+      "Name": "Lynx Of Abyssal Grief",
+      "Expansion": "Endwalker",
+      "Fight": "EX7 - Zeromus",
+      "Content": "EX7"
+    },
+    {
       "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
       "Name": "Wings Of Resolve",
       "Expansion": "Dawntrail",
