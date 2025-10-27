@@ -27,7 +27,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="player in dataFiles" :key="player?.player">
+        <tr v-for="player in sortedPlayers" :key="player?.player">
           <td class="nopadding">
             <img
               :src="`/ffxiv/job-icons/${player.job}.png`"
@@ -94,7 +94,7 @@ export default {
     };
   },
   computed: {
-    filteredData() {
+    filteredData: function () {
       return Object.values(this.dataFiles).flatMap((file) =>
         file.data
           .filter((record) => record.expansion === this.selectedExpansion)
@@ -103,6 +103,18 @@ export default {
             content: record.Content || [],
           }))
       );
+    },
+    sortedPlayers() {
+      return this.dataFiles.slice().sort((a, b) => {
+        // First sort by status (ft before pt)
+        if (a.status === "ft" && b.status !== "ft") return -1;
+        if (a.status !== "ft" && b.status === "ft") return 1;
+        if (a.status === "pt" && b.status !== "pt") return -1;
+        if (a.status !== "pt" && b.status === "pt") return 1;
+
+        // Then sort alphabetically by player name
+        return a.player.localeCompare(b.player);
+      });
     },
   },
   mounted() {

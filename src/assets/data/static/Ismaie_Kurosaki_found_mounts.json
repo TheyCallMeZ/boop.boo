@@ -8,6 +8,13 @@
   "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/52796871/mount",
   "mounts": [
     {
+      "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
+      "Name": "Demi-Phoinix",
+      "Expansion": "Endwalker",
+      "Fight": "Asphodelos: The Fourth Circle (Savage)",
+      "Content": "Savage 1"
+    },
+    {
       "ID": "3c10d9a903963c280818f2eb3d827499f05ab5bd",
       "Name": "Alte Roite",
       "Expansion": "Stormblood",
@@ -223,6 +230,13 @@
       "Expansion": "Endwalker",
       "Fight": "EX6 - Golbez",
       "Content": "EX6"
+    },
+    {
+      "ID": "f78231f7cbd1d8fd2ecd39a8eee365b6cd511ced",
+      "Name": "Lynx Of Abyssal Grief",
+      "Expansion": "Endwalker",
+      "Fight": "EX7 - Zeromus",
+      "Content": "EX7"
     },
     {
       "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
