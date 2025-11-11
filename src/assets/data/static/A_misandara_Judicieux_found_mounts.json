@@ -22,6 +22,13 @@
       "Content": "Savage 2"
     },
     {
+      "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+      "Name": "Sunforged",
+      "Expansion": "Endwalker",
+      "Fight": "Abyssos: The Eighth Circle (Savage)",
+      "Content": "Savage 2"
+    },
+    {
       "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
       "Name": "Ramuh",
       "Expansion": "Shadowbringers",
@@ -258,6 +265,13 @@
       "Expansion": "Endwalker",
       "Fight": "EX7 - Zeromus",
       "Content": "EX7"
+    },
+    {
+      "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
+      "Name": "Wings of Ruin",
+      "Expansion": "Dawntrail",
+      "Fight": "EX1 - Worqor Lador",
+      "Content": "EX1"
     },
     {
       "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
