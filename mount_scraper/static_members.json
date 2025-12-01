@@ -50,7 +50,7 @@
     "job": "Ninja",
     "status": "ft"
   },
-    {
+  {
     "name": "Morriko Okami",
     "lodestoneId": "46410179",
     "homeWorld": "Exodus",
@@ -63,6 +63,12 @@
     "homeWorld": "Hyperion",
     "job": "Gunbreaker",
     "status": "ft"
+  },
+  {
+    "name": "Victa Vale",
+    "lodestoneId": "55489077",
+    "homeWorld": "Lamia",
+    "job": "Bard",
+    "status": "pt"
   }
-
 ]
