@@ -1,0 +1,116 @@
+{
+  "name": "Victa Vale",
+  "job": "Bard",
+  "homeWorld": "Lamia",
+  "lodestoneId": "55489077",
+  "status": "pt",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/55489077",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/55489077/mount",
+  "mounts": [
+    {
+      "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
+      "Name": "Ramuh",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Verse: Refulgence (Savage)",
+      "Content": "Savage 2"
+    },
+    {
+      "ID": "5551fb1233696288c813ecbc70dd26ff9532eb25",
+      "Name": "Skyslipper",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Gate: Sepulture (Savage)",
+      "Content": "Savage 1"
+    },
+    {
+      "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
+      "Name": "Eden",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Promise: Eternity (Savage)",
+      "Content": "Savage 3"
+    },
+    {
+      "ID": "82a3e8eb3e9e1d321214a66ddfaf93e2a2927ded",
+      "Name": "Rose Lanner",
+      "Expansion": "Heavensward",
+      "Fight": "EX2 - Thok ast Thok (Extreme)",
+      "Content": "EX2"
+    },
+    {
+      "ID": "8ef4673ed1f4166f1a6a3d799bf71c8cf8ca0efe",
+      "Name": "Dark Lanner",
+      "Expansion": "Heavensward",
+      "Fight": "EX4 - The Minstrel's Ballad: Nidhogg's Rage",
+      "Content": "EX4"
+    },
+    {
+      "ID": "158c677caf412494e733f8151f47678abedde60b",
+      "Name": "Blissful Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX2 - Emanation (Extreme)",
+      "Content": "EX2"
+    },
+    {
+      "ID": "384e0c1ac94b27675beb7e42f68fdc21fbb1f77b",
+      "Name": "Fae Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX1 - Titania",
+      "Content": "EX1"
+    },
+    {
+      "ID": "15041a6511dc3c4f84375aa3506191939126384a",
+      "Name": "Shadow Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX3 - Hades",
+      "Content": "EX3"
+    },
+    {
+      "ID": "9aa42147d7fa50e67aa0e98cf2559d9eff1b5c8d",
+      "Name": "Gwiber Of Light",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX5 - Warrior of Light",
+      "Content": "EX5"
+    },
+    {
+      "ID": "d2a8d4106a4419d3cd88301e5609c44636416172",
+      "Name": "Lynx Of Eternal Darkness",
+      "Expansion": "Endwalker",
+      "Fight": "EX1 - Zodiark",
+      "Content": "EX1"
+    },
+    {
+      "ID": "3f07fd2452a5ec63fa3ae530d13860d786d7f670",
+      "Name": "Lynx Of Divine Light",
+      "Expansion": "Endwalker",
+      "Fight": "EX2 - Hydaelyn",
+      "Content": "EX2"
+    },
+    {
+      "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
+      "Name": "Wings of Ruin",
+      "Expansion": "Dawntrail",
+      "Fight": "EX1 - Worqor Lador",
+      "Content": "EX1"
+    },
+    {
+      "ID": "49fd48ad6d8c3fc041f72be595bc8de5a4b93c9a",
+      "Name": "Wings Of Resolve",
+      "Expansion": "Dawntrail",
+      "Fight": "EX2 - Everkeep",
+      "Content": "EX2"
+    },
+    {
+      "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
+      "Name": "Wings Of Eternity",
+      "Expansion": "Dawntrail",
+      "Fight": "EX3 - Minstrel's Ballad: Sphene's Burden",
+      "Content": "EX3"
+    },
+    {
+      "ID": "7c5aae58c30d8b16c41e232f3a85bc25661f9924",
+      "Name": "Wings of The Knighthood",
+      "Expansion": "Dawntrail",
+      "Fight": "EX4 - Recollection (Extreme)",
+      "Content": "EX4"
+    }
+  ]
+}

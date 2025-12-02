@@ -36,6 +36,13 @@
       "Content": "EX3"
     },
     {
+      "ID": "a704b4ca201d6ea098edcaa17b6b949fc2f63dfc",
+      "Name": "Auspicious Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX5 - The Jade Stoa (Extreme)",
+      "Content": "EX5"
+    },
+    {
       "ID": "e01f10ad7f8ecfbce248991e8f22b7ca4d84cbbc",
       "Name": "Hallowed Kamuy",
       "Expansion": "Stormblood",
@@ -48,6 +55,13 @@
       "Expansion": "Shadowbringers",
       "Fight": "EX4 - The Ruby Weapon",
       "Content": "EX4"
+    },
+    {
+      "ID": "9aa42147d7fa50e67aa0e98cf2559d9eff1b5c8d",
+      "Name": "Gwiber Of Light",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX5 - Warrior of Light",
+      "Content": "EX5"
     },
     {
       "ID": "b4e34b2e30da1041034ee96c20d06d2b6bd981ea",
