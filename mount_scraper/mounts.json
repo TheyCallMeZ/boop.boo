@@ -1,5 +1,12 @@
 ﻿[
   {
+    "ID": "b2e5d92a189f3de78beb8ad1a5efc6a46a4b18d2",
+    "Name": "Wings of Mist",
+    "Expansion": "Dawntrail",
+    "Fight": "EX6 - Hell On Rails (Extreme)",
+    "Content": "EX6"
+  },
+  {
     "ID": "89cdf7b894488141c196c3a30b121d1e77d949f6",
     "Name": "Wings of Death",
     "Expansion": "Dawntrail",
@@ -231,87 +238,87 @@
     "Content": "EX7"
   },
   {
-    "ID":  "5551fb1233696288c813ecbc70dd26ff9532eb25",
-    "Name":  "Skyslipper",
+    "ID": "5551fb1233696288c813ecbc70dd26ff9532eb25",
+    "Name": "Skyslipper",
     "Expansion": "Shadowbringers",
-    "Fight":  "Eden's Gate: Sepulture (Savage)",
+    "Fight": "Eden's Gate: Sepulture (Savage)",
     "Content": "Savage 1"
   },
   {
-    "ID":  "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
-    "Name":  "Ramuh",
+    "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
+    "Name": "Ramuh",
     "Expansion": "Shadowbringers",
-    "Fight":  "Eden's Verse: Refulgence (Savage)",
+    "Fight": "Eden's Verse: Refulgence (Savage)",
     "Content": "Savage 2"
   },
   {
-    "ID":  "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
-    "Name":  "Eden",
+    "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
+    "Name": "Eden",
     "Expansion": "Shadowbringers",
-    "Fight":  "Eden's Promise: Eternity (Savage)",
+    "Fight": "Eden's Promise: Eternity (Savage)",
     "Content": "Savage 3"
   },
   {
-    "ID":  "2e62aa54ed32ead4f20ba10f5795bfeec9f70471",
-    "Name":  "Megaloambystoma",
+    "ID": "2e62aa54ed32ead4f20ba10f5795bfeec9f70471",
+    "Name": "Megaloambystoma",
     "Expansion": "Endwalker",
-    "Fight":  "Anabaseios: The Twelfth Circle (Savage)",
+    "Fight": "Anabaseios: The Twelfth Circle (Savage)",
     "Content": "Savage 3"
   },
   {
-    "ID":  "f30cd79ccaa9b37318658c61d67adec69d5521ef",
-    "Name":  "Demi-Phoinix",
+    "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
+    "Name": "Demi-Phoinix",
     "Expansion": "Endwalker",
-    "Fight":  "Asphodelos: The Fourth Circle (Savage)",
+    "Fight": "Asphodelos: The Fourth Circle (Savage)",
     "Content": "Savage 1"
   },
   {
-    "ID":  "7367724bf0255490db653eaea5ee0a54c6cdc5db",
-    "Name":  "Sunforged",
+    "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+    "Name": "Sunforged",
     "Expansion": "Endwalker",
-    "Fight":  "Abyssos: The Eighth Circle (Savage)",
+    "Fight": "Abyssos: The Eighth Circle (Savage)",
     "Content": "Savage 2"
   },
   {
-    "ID":  "e08886e43355f806c1cd01dd3059b4559e286c04",
-    "Name":  "Monowheel S1",
+    "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
+    "Name": "Monowheel S1",
     "Expansion": "Dawntrail",
-    "Fight":  "AAC Light-heavyweight M4 (Savage)",
+    "Fight": "AAC Light-heavyweight M4 (Savage)",
     "Content": "Savage 1"
   },
   {
-    "ID":  "8ce5861b457c93d2d4ceed0ff359b4a55501b459",
-    "Name":  "Air Force",
+    "ID": "8ce5861b457c93d2d4ceed0ff359b4a55501b459",
+    "Name": "Air Force",
     "Expansion": "Stormblood",
-    "Fight":  "Sigmascape V4.0 (Savage)",
+    "Fight": "Sigmascape V4.0 (Savage)",
     "Content": "Savage 1"
   },
   {
-    "ID":  "3c10d9a903963c280818f2eb3d827499f05ab5bd",
-    "Name":  "Alte Roite",
+    "ID": "3c10d9a903963c280818f2eb3d827499f05ab5bd",
+    "Name": "Alte Roite",
     "Expansion": "Stormblood",
-    "Fight":  "Deltascape V4.0 (Savage)",
+    "Fight": "Deltascape V4.0 (Savage)",
     "Content": "Savage 2"
   },
   {
-    "ID":  "a996e660815c651e92283e29e1ff9da11ab0ebb8",
-    "Name":  "Model O",
+    "ID": "a996e660815c651e92283e29e1ff9da11ab0ebb8",
+    "Name": "Model O",
     "Expansion": "Stormblood",
-    "Fight":  "Alphascape V4.0 (Savage)",
+    "Fight": "Alphascape V4.0 (Savage)",
     "Content": "Savage 3"
   },
   {
-    "ID":  "a7af0f88b093540bbe311c4892398763a90d0771",
-    "Name":  "Gobwalker",
+    "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
+    "Name": "Gobwalker",
     "Expansion": "Heavensward",
-    "Fight":  "Alexander - The Burden of the Father (Savage)",
+    "Fight": "Alexander - The Burden of the Father (Savage)",
     "Content": "Savage 1"
   },
   {
-    "ID":  "859066dbd978b16beac4d0995aeb2c4945a19fa5",
-    "Name":  "Arrhidaeus",
+    "ID": "859066dbd978b16beac4d0995aeb2c4945a19fa5",
+    "Name": "Arrhidaeus",
     "Expansion": "Heavensward",
-    "Fight":  "Alexander - The Soul of the Creator (Savage)",
+    "Fight": "Alexander - The Soul of the Creator (Savage)",
     "Content": "Savage 3"
   }
 ]
