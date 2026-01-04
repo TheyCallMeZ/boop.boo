@@ -8,6 +8,13 @@
   "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/46410179/mount",
   "mounts": [
     {
+      "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
+      "Name": "Eden",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Promise: Eternity (Savage)",
+      "Content": "Savage 3"
+    },
+    {
       "ID": "65b746dd746a4cd4880ac84af86ebb49b6805b5c",
       "Name": "Sophic Lanner",
       "Expansion": "Heavensward",
