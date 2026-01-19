@@ -1,112 +1,132 @@
 ﻿{
-"extreme": [
-  { 
-    "fightName": "Worqor Lar Dor",
-    "bossName": "Valigarmanda",
-    "imgPath": "/ffxiv/dawntrail/Worqor_Lar_Dor.png",
-    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Worqor_Lar_Dor_(Extreme)",
-    "youTubeLinks": [
-      {
-        "name": "Mizzteq's EX Guide",
-        "url": "https://www.youtube.com/watch?v=D37pzCpyhmo"
-      },
-      {
-        "name": "Joonbob's Diagram Guide",
-        "url": "https://www.youtube.com/watch?v=k9wewnt86DU"
-      }
-    ]
-  },
-  {
-    "fightName": "Everkeep",
-    "bossName": "Zoraal Ja",
-    "imgPath": "/ffxiv/dawntrail/Everkeep.png",
-    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Everkeep_(Extreme)",
-    "youTubeLinks": [
-      {
-        "name": "Mizzteq's EX Guide",
-        "url": "https://www.youtube.com/watch?v=HuMNEyruE6k"
-      },
-      {
-        "name": "Joonbob's Diagram Guide",
-        "url": "https://www.youtube.com/watch?v=AxDDWGSbdPw"
-      }
-    ]
-  },
-  {
-    "fightName": "The Minstrel's Ballad: Sphene's Burden",
-    "bossName": "Queen Eternal",
-    "imgPath": "/ffxiv/dawntrail/The_Minstrels_Ballad_Sphenes_Burden.png",
-    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Sphene%27s_Burden",
-    "youTubeLinks": [
-      {
-        "name": "Kobe's Classroom",
-        "url": "https://www.youtube.com/watch?v=wgnXFCx_7Eo"
-      },
-      {
-        "name": "Hector Lectures",
-        "url": "https://www.youtube.com/watch?v=yfvfhuEEMCY"
-      }
-    ]
-  },
-  {
-    "fightName": "Recollection",
-    "bossName": "Zelenia",
-    "imgPath": "/ffxiv/dawntrail/Recollection.png",
-    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Recollection_(Extreme)",
-    "youTubeLinks": [
-      {
-        "name": "Kobe's Classroom",
-        "url": "https://www.youtube.com/watch?v=FddjSvl0qLc"
-      },
-      {
-        "name": "Hector Lectures",
-        "url": "https://www.youtube.com/watch?v=AFaiOZK78tM"
-      },
-      {
-        "name": "Hector's EF2 Braindead Strat",
-        "url": "https://www.youtube.com/watch?v=NxzneQ2Pcp8"
-      },
-      {
-        "name": "Hector Raidplan Strats (Video)",
-        "url": "https://www.youtube.com/watch?v=W7OhCtKQnxk"
-      },
-      {
-        "name": "NA Raidplan 1 By Rai",
-        "url": "https://raidplan.io/plan/-Wj9LY4RpWBtEnpX"
-      },
-      {
-        "name": "NA Raidplan 2 By Rai",
-        "url": "https://raidplan.io/plan/k9Vc_KRu9PVl0F-G"
-      },
-      {
-        "name": "EU Raidplan by Copy Nemu Nemu and Myre Snowhaven",
-        "url": "https://raidplan.io/plan/acWA-JTlEzA7SWMG"
-      },
-      {
-        "name": "Mr Happy's Guide",
-        "url": "https://www.youtube.com/watch?v=uop1Zzv8Clo"
-      }
-    ]
-  },
-  {
-    "fightName": "The Minstrel’s Ballad: Necron’s Embrace",
-    "bossName": "Necron",
-    "imgPath": "/ffxiv/dawntrail/The_Minstrel's_Ballad_Necron's_Embrace.png",
-    "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Necron%27s_Embrace",
-    "youTubeLinks": [
-      {
-        "name": "Raidplan",
-        "url": "https://raidplan.io/plan/zqey3pp7kfp5ghc4"
-      },
-      {
-        "name": "Raidplan Uptime Strat",
-        "url": "https://wtfdig.info/73/ex5#hector:uptime"
-      },
-      {
-        "name": "Hector Lectures",
-        "url": "https://www.youtube.com/watch?v=2RsWkk8bxyk"
-      }
-    ]
-  }
-]
+  "extreme": [
+    {
+      "fightName": "Worqor Lar Dor",
+      "bossName": "Valigarmanda",
+      "imgPath": "/ffxiv/dawntrail/Worqor_Lar_Dor.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Worqor_Lar_Dor_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=D37pzCpyhmo"
+        },
+        {
+          "name": "Joonbob's Diagram Guide",
+          "url": "https://www.youtube.com/watch?v=k9wewnt86DU"
+        }
+      ]
+    },
+    {
+      "fightName": "Everkeep",
+      "bossName": "Zoraal Ja",
+      "imgPath": "/ffxiv/dawntrail/Everkeep.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Everkeep_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Mizzteq's EX Guide",
+          "url": "https://www.youtube.com/watch?v=HuMNEyruE6k"
+        },
+        {
+          "name": "Joonbob's Diagram Guide",
+          "url": "https://www.youtube.com/watch?v=AxDDWGSbdPw"
+        }
+      ]
+    },
+    {
+      "fightName": "The Minstrel's Ballad: Sphene's Burden",
+      "bossName": "Queen Eternal",
+      "imgPath": "/ffxiv/dawntrail/The_Minstrels_Ballad_Sphenes_Burden.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Sphene%27s_Burden",
+      "youTubeLinks": [
+        {
+          "name": "Kobe's Classroom",
+          "url": "https://www.youtube.com/watch?v=wgnXFCx_7Eo"
+        },
+        {
+          "name": "Hector Lectures",
+          "url": "https://www.youtube.com/watch?v=yfvfhuEEMCY"
+        }
+      ]
+    },
+    {
+      "fightName": "Recollection",
+      "bossName": "Zelenia",
+      "imgPath": "/ffxiv/dawntrail/Recollection.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/Recollection_(Extreme)",
+      "youTubeLinks": [
+        {
+          "name": "Kobe's Classroom",
+          "url": "https://www.youtube.com/watch?v=FddjSvl0qLc"
+        },
+        {
+          "name": "Hector Lectures",
+          "url": "https://www.youtube.com/watch?v=AFaiOZK78tM"
+        },
+        {
+          "name": "Hector's EF2 Braindead Strat",
+          "url": "https://www.youtube.com/watch?v=NxzneQ2Pcp8"
+        },
+        {
+          "name": "Hector Raidplan Strats (Video)",
+          "url": "https://www.youtube.com/watch?v=W7OhCtKQnxk"
+        },
+        {
+          "name": "NA Raidplan 1 By Rai",
+          "url": "https://raidplan.io/plan/-Wj9LY4RpWBtEnpX"
+        },
+        {
+          "name": "NA Raidplan 2 By Rai",
+          "url": "https://raidplan.io/plan/k9Vc_KRu9PVl0F-G"
+        },
+        {
+          "name": "EU Raidplan by Copy Nemu Nemu and Myre Snowhaven",
+          "url": "https://raidplan.io/plan/acWA-JTlEzA7SWMG"
+        },
+        {
+          "name": "Mr Happy's Guide",
+          "url": "https://www.youtube.com/watch?v=uop1Zzv8Clo"
+        }
+      ]
+    },
+    {
+      "fightName": "The Minstrel’s Ballad: Necron’s Embrace",
+      "bossName": "Necron",
+      "imgPath": "/ffxiv/dawntrail/The_Minstrel's_Ballad_Necron's_Embrace.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Necron%27s_Embrace",
+      "youTubeLinks": [
+        {
+          "name": "Raidplan",
+          "url": "https://raidplan.io/plan/zqey3pp7kfp5ghc4"
+        },
+        {
+          "name": "Raidplan Uptime Strat",
+          "url": "https://wtfdig.info/73/ex5#hector:uptime"
+        },
+        {
+          "name": "Hector Lectures",
+          "url": "https://www.youtube.com/watch?v=2RsWkk8bxyk"
+        }
+      ]
+    },
+    {
+      "fightName": "Hell on Rails (Extreme)",
+      "bossName": "Doomtrain",
+      "imgPath": "/ffxiv/dawntrail/Hell_on_Rails.png",
+      "wikiLink": "https://ffxiv.consolegameswiki.com/wiki/The_Minstrel%27s_Ballad:_Necron%27s_Embrace",
+      "youTubeLinks": [
+        {
+          "name": "WTFDIG (Strategy Board)",
+          "url": "https://board.wtfdig.info/[stgy:aFHBrZSlezlhWsiqDyLZO4i9OX2Nhe1TWM7lg6R3Oy+c22z3U2HX4cR4b25teaCDaUJ7MxL2a-pCEcj0Qw8dh+9-aYpjhMSBxA0+iRUBxVz7-kB0plHCeUMAEO6zeFvH1VpbD-hW+02dE7oiYf9IOUpJugifMq12Jz8qHqOjeqxk1eNLdgXv7znAtmDJ67pnSamqysnidtXxecd673EqFJw60uj1QjOdERA+NdWLvttL1lu4Kp-KFfz4ofz9Uy1xSuR7JGndpFVIaZ9k7xGj1zD4rsSsDuO-cYPH6KuoUQjsj4kPVxZ3I4Ms6IRaf+OQxj2wHHB9PQXHEi0hw61GM6cct9+pzVN0RYvOWrT-mqmNTj47OHeRtyUzYu8cPHnPyel3aSd-z6PKRhP9Y2wDEwnKvmVCYufpikHmBXfwbr56p3g6jA5pYQ-IM66pfq25jdAHeY8qVKX91r2PjUBxl99eDVfP+CRIp2aq3zxET2yt0XPdPgy2s76zjB49Jyn0c7SQLAkRLZ8onlD2gnnHH2yrpmHRarBFjNMw]"
+        },
+        {
+          "name": "Kobe's Classroom",
+          "url": "https://www.youtube.com/watch?v=j7UiVofFSeA"
+        },
+        {
+          "name": "Hector Lectures",
+          "url": "https://www.youtube.com/watch?v=fGGI8MM-wKM"
+        }
+      ]
+    }
+  ]
 }
