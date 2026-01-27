@@ -70,5 +70,13 @@
     "homeWorld": "Lamia",
     "job": "Bard",
     "status": "pt"
+  },
+  {
+    "name": "Natallia Hur",
+    "lodestoneId": "47021574",
+    "homeWorld": "Lamia",
+    "job": "Bard",
+    "status": "pt",
+    "note": "Akiko's Lamia Alt"
   }
 ]
