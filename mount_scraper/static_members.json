@@ -37,13 +37,6 @@
     "status": "ft"
   },
   {
-    "name": "Aero Auditore",
-    "lodestoneId": "32056005",
-    "homeWorld": "Famfrit",
-    "job": "Warrior",
-    "status": "ft"
-  },
-  {
     "name": "Clayton Krauser",
     "lodestoneId": "4247400",
     "homeWorld": "Famfrit",
@@ -78,5 +71,12 @@
     "job": "DarkKnight",
     "status": "pt",
     "note": "Akiko's Lamia Alt"
+  },
+  {
+    "name": "Zaria Lhia",
+    "lodestoneId": "49356598",
+    "homeWorld": "Cactuar",
+    "job": "DarkKnight",
+    "status": "ft"
   }
 ]

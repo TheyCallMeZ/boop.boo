@@ -51,5 +51,12 @@
     "homeWorld": "Leviathan",
     "job": "DarkKnight",
     "status": "ft"
+  },
+  {
+    "name": "Aero Auditore",
+    "lodestoneId": "32056005",
+    "homeWorld": "Famfrit",
+    "job": "Warrior",
+    "status": "ft"
   }
 ]
