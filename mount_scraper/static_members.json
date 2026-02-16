@@ -78,5 +78,12 @@
     "homeWorld": "Cactuar",
     "job": "Paladin",
     "status": "ft"
+  },
+  {
+    "name": "Caithe Askari",
+    "lodestoneId": "11266794",
+    "homeWorld": "Hyperion",
+    "job": "WhiteMage",
+    "status": "pt"
   }
 ]

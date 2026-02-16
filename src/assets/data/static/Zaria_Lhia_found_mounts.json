@@ -22,11 +22,39 @@
       "Content": "EX1"
     },
     {
+      "ID": "e35705eeac915a012a3819f0d314492014c05db3",
+      "Name": "Innocent Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX2 - Innocence",
+      "Content": "EX2"
+    },
+    {
+      "ID": "15041a6511dc3c4f84375aa3506191939126384a",
+      "Name": "Shadow Gwiber",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX3 - Hades",
+      "Content": "EX3"
+    },
+    {
+      "ID": "9aa42147d7fa50e67aa0e98cf2559d9eff1b5c8d",
+      "Name": "Gwiber Of Light",
+      "Expansion": "Shadowbringers",
+      "Fight": "EX5 - Warrior of Light",
+      "Content": "EX5"
+    },
+    {
       "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
       "Name": "Wings Of Eternity",
       "Expansion": "Dawntrail",
       "Fight": "EX3 - Minstrel's Ballad: Sphene's Burden",
       "Content": "EX3"
+    },
+    {
+      "ID": "7c5aae58c30d8b16c41e232f3a85bc25661f9924",
+      "Name": "Wings of The Knighthood",
+      "Expansion": "Dawntrail",
+      "Fight": "EX4 - Recollection (Extreme)",
+      "Content": "EX4"
     }
   ]
 }

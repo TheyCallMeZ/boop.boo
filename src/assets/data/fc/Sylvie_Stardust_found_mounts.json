@@ -22,6 +22,13 @@
       "Content": "Savage 2"
     },
     {
+      "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+      "Name": "Sunforged",
+      "Expansion": "Endwalker",
+      "Fight": "Abyssos: The Eighth Circle (Savage)",
+      "Content": "Savage 2"
+    },
+    {
       "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
       "Name": "Ramuh",
       "Expansion": "Shadowbringers",
@@ -258,6 +265,13 @@
       "Expansion": "Endwalker",
       "Fight": "EX5 - Rubicante",
       "Content": "EX5"
+    },
+    {
+      "ID": "78296dcfa7646aeb81e2da8ff963cac03ef72488",
+      "Name": "Lynx Of Fallen Shadow",
+      "Expansion": "Endwalker",
+      "Fight": "EX6 - Golbez",
+      "Content": "EX6"
     },
     {
       "ID": "4150c85238e8a2685b5a3e2dab6e77efe84066db",
