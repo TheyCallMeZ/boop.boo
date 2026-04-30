@@ -8,11 +8,46 @@
   "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/49356598/mount",
   "mounts": [
     {
+      "ID": "3c10d9a903963c280818f2eb3d827499f05ab5bd",
+      "Name": "Alte Roite",
+      "Expansion": "Stormblood",
+      "Fight": "Deltascape V4.0 (Savage)",
+      "Content": "Savage 2"
+    },
+    {
       "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
       "Name": "Sunforged",
       "Expansion": "Endwalker",
       "Fight": "Abyssos: The Eighth Circle (Savage)",
       "Content": "Savage 2"
+    },
+    {
+      "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
+      "Name": "Ramuh",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Verse: Refulgence (Savage)",
+      "Content": "Savage 2"
+    },
+    {
+      "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
+      "Name": "Monowheel S1",
+      "Expansion": "Dawntrail",
+      "Fight": "AAC Light-heavyweight M4 (Savage)",
+      "Content": "Savage 1"
+    },
+    {
+      "ID": "5551fb1233696288c813ecbc70dd26ff9532eb25",
+      "Name": "Skyslipper",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Gate: Sepulture (Savage)",
+      "Content": "Savage 1"
+    },
+    {
+      "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
+      "Name": "Eden",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Promise: Eternity (Savage)",
+      "Content": "Savage 3"
     },
     {
       "ID": "82a3e8eb3e9e1d321214a66ddfaf93e2a2927ded",

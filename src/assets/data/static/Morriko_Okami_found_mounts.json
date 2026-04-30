@@ -8,6 +8,13 @@
   "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/46410179/mount",
   "mounts": [
     {
+      "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
+      "Name": "Demi-Phoinix",
+      "Expansion": "Endwalker",
+      "Fight": "Asphodelos: The Fourth Circle (Savage)",
+      "Content": "Savage 1"
+    },
+    {
       "ID": "b2f5e24d480966f0d13b8b3c17a89755aba5f1ea",
       "Name": "Eden",
       "Expansion": "Shadowbringers",
