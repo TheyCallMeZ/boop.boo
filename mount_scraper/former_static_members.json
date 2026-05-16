@@ -58,5 +58,20 @@
     "homeWorld": "Famfrit",
     "job": "Warrior",
     "status": "ft"
+  },
+  {
+    "name": "Akiko Navli",
+    "lodestoneId": "30260304",
+    "homeWorld": "Hyperion",
+    "job": "Gunbreaker",
+    "status": "ft"
+  },
+  {
+    "name": "Natallia Hur",
+    "lodestoneId": "47021574",
+    "homeWorld": "Lamia",
+    "job": "DarkKnight",
+    "status": "pt",
+    "note": "Akiko's Lamia Alt"
   }
 ]

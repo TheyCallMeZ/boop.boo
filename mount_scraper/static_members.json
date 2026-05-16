@@ -51,10 +51,10 @@
     "status": "pt"
   },
   {
-    "name": "Akiko Navli",
-    "lodestoneId": "30260304",
-    "homeWorld": "Hyperion",
-    "job": "Gunbreaker",
+    "name": "Al'lan Mandragoran",
+    "lodestoneId": "8216920",
+    "homeWorld": "Ultros",
+    "job": "Paladin",
     "status": "ft"
   },
   {
@@ -63,14 +63,6 @@
     "homeWorld": "Lamia",
     "job": "Bard",
     "status": "pt"
-  },
-  {
-    "name": "Natallia Hur",
-    "lodestoneId": "47021574",
-    "homeWorld": "Lamia",
-    "job": "DarkKnight",
-    "status": "pt",
-    "note": "Akiko's Lamia Alt"
   },
   {
     "name": "Zaria Lhia",

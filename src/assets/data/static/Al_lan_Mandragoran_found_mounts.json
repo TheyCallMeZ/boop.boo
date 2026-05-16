@@ -1,19 +1,12 @@
 {
-  "name": "Akiko Navli",
-  "job": "Gunbreaker",
-  "homeWorld": "Hyperion",
-  "lodestoneId": "30260304",
+  "name": "Al'lan Mandragoran",
+  "job": "Paladin",
+  "homeWorld": "Ultros",
+  "lodestoneId": "8216920",
   "status": "ft",
-  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/30260304",
-  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/30260304/mount",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/8216920",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/8216920/mount",
   "mounts": [
-    {
-      "ID": "f30cd79ccaa9b37318658c61d67adec69d5521ef",
-      "Name": "Demi-Phoinix",
-      "Expansion": "Endwalker",
-      "Fight": "Asphodelos: The Fourth Circle (Savage)",
-      "Content": "Savage 1"
-    },
     {
       "ID": "3c10d9a903963c280818f2eb3d827499f05ab5bd",
       "Name": "Alte Roite",
@@ -22,25 +15,11 @@
       "Content": "Savage 2"
     },
     {
-      "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
-      "Name": "Sunforged",
-      "Expansion": "Endwalker",
-      "Fight": "Abyssos: The Eighth Circle (Savage)",
-      "Content": "Savage 2"
-    },
-    {
       "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
       "Name": "Ramuh",
       "Expansion": "Shadowbringers",
       "Fight": "Eden's Verse: Refulgence (Savage)",
       "Content": "Savage 2"
-    },
-    {
-      "ID": "2e62aa54ed32ead4f20ba10f5795bfeec9f70471",
-      "Name": "Megaloambystoma",
-      "Expansion": "Endwalker",
-      "Fight": "Anabaseios: The Twelfth Circle (Savage)",
-      "Content": "Savage 3"
     },
     {
       "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
@@ -55,13 +34,6 @@
       "Expansion": "Stormblood",
       "Fight": "Alphascape V4.0 (Savage)",
       "Content": "Savage 3"
-    },
-    {
-      "ID": "e08886e43355f806c1cd01dd3059b4559e286c04",
-      "Name": "Monowheel S1",
-      "Expansion": "Dawntrail",
-      "Fight": "AAC Light-heavyweight M4 (Savage)",
-      "Content": "Savage 1"
     },
     {
       "ID": "859066dbd978b16beac4d0995aeb2c4945a19fa5",
@@ -321,13 +293,6 @@
       "Expansion": "Dawntrail",
       "Fight": "EX5 - The Minstrel's Ballad: Necron's Embrace",
       "Content": "EX5"
-    },
-    {
-      "ID": "b2e5d92a189f3de78beb8ad1a5efc6a46a4b18d2",
-      "Name": "Wings of Mist",
-      "Expansion": "Dawntrail",
-      "Fight": "EX6 - Hell On Rails (Extreme)",
-      "Content": "EX6"
     }
   ]
 }
