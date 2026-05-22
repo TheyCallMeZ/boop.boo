@@ -51,10 +51,10 @@
     "status": "pt"
   },
   {
-    "name": "Al'lan Mandragoran",
-    "lodestoneId": "8216920",
-    "homeWorld": "Ultros",
-    "job": "Paladin",
+    "name": "Wisteria Lispector",
+    "lodestoneId": "54419119",
+    "homeWorld": "Hyperion",
+    "job": "Gunbreaker",
     "status": "ft"
   },
   {
@@ -76,6 +76,13 @@
     "lodestoneId": "11266794",
     "homeWorld": "Hyperion",
     "job": "WhiteMage",
+    "status": "pt"
+  },
+  {
+    "name": "Basileus Sloth",
+    "lodestoneId": "34849707",
+    "homeWorld": "Exodus",
+    "job": "Viper",
     "status": "pt"
   }
 ]

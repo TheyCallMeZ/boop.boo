@@ -32,13 +32,6 @@
     "status": "ft"
   },
   {
-    "name": "Basileus Sloth",
-    "lodestoneId": "34849707",
-    "homeWorld": "Exodus",
-    "job": "Viper",
-    "status": "ft"
-  },
-  {
     "name": "Sol Fallen",
     "lodestoneId": "30647878",
     "homeWorld": "Leviathan",
@@ -73,5 +66,12 @@
     "job": "DarkKnight",
     "status": "pt",
     "note": "Akiko's Lamia Alt"
+  },
+  {
+    "name": "Al'lan Mandragoran",
+    "lodestoneId": "8216920",
+    "homeWorld": "Ultros",
+    "job": "Paladin",
+    "status": "ft"
   }
 ]
