@@ -40,5 +40,19 @@
     "homeWorld": "Hyperion",
     "status": "ft",
     "job": "Dragoon"
+  },
+  {
+    "name": "Kleshya Valdemar",
+    "lodestoneId": "1716411",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "Summoner"
+  },
+  {
+    "name": "Lessa Ramoth",
+    "lodestoneId": "45580640",
+    "homeWorld": "Hyperion",
+    "status": "ft",
+    "job": "Dragoon"
   }
 ]

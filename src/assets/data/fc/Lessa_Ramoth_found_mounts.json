@@ -1,0 +1,25 @@
+{
+  "name": "Lessa Ramoth",
+  "job": "Dragoon",
+  "homeWorld": "Hyperion",
+  "lodestoneId": "45580640",
+  "status": "ft",
+  "profileUrl": "https://na.finalfantasyxiv.com/lodestone/character/45580640",
+  "mountUrl": "https://na.finalfantasyxiv.com/lodestone/character/45580640/mount",
+  "mounts": [
+    {
+      "ID": "65b746dd746a4cd4880ac84af86ebb49b6805b5c",
+      "Name": "Sophic Lanner",
+      "Expansion": "Heavensward",
+      "Fight": "EX6 - Containment Bay P1T6 (Extreme)",
+      "Content": "EX6"
+    },
+    {
+      "ID": "eb428d8a1f103fedb753c617222176f77d68635e",
+      "Name": "Demonic Lanner",
+      "Expansion": "Heavensward",
+      "Fight": "EX7 - Containment Bay Z1T9 (Extreme)",
+      "Content": "EX7"
+    }
+  ]
+}
