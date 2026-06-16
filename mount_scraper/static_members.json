@@ -91,5 +91,12 @@
     "homeWorld": "Exodus",
     "job": "Viper",
     "status": "pt"
+  },
+  {
+    "name": "Harley Quinnzel",
+    "lodestoneId": "9852479",
+    "homeWorld": "Brynhildr",
+    "job": "Astrologian",
+    "status": "ft"
   }
 ]
