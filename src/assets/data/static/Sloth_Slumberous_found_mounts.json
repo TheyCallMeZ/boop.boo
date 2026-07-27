@@ -36,6 +36,13 @@
       "Content": "Savage 2"
     },
     {
+      "ID": "2e62aa54ed32ead4f20ba10f5795bfeec9f70471",
+      "Name": "Megaloambystoma",
+      "Expansion": "Endwalker",
+      "Fight": "Anabaseios: The Twelfth Circle (Savage)",
+      "Content": "Savage 3"
+    },
+    {
       "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
       "Name": "Gobwalker",
       "Expansion": "Heavensward",
@@ -286,6 +293,13 @@
       "Expansion": "Dawntrail",
       "Fight": "EX2 - Everkeep",
       "Content": "EX2"
+    },
+    {
+      "ID": "68e2b2dd54c5a32a2368d9174db14cb1d96b9b1d",
+      "Name": "Wings Of Eternity",
+      "Expansion": "Dawntrail",
+      "Fight": "EX3 - Minstrel's Ballad: Sphene's Burden",
+      "Content": "EX3"
     }
   ]
 }
