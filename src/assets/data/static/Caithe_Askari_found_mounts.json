@@ -22,6 +22,20 @@
       "Content": "Savage 2"
     },
     {
+      "ID": "7367724bf0255490db653eaea5ee0a54c6cdc5db",
+      "Name": "Sunforged",
+      "Expansion": "Endwalker",
+      "Fight": "Abyssos: The Eighth Circle (Savage)",
+      "Content": "Savage 2"
+    },
+    {
+      "ID": "6da2ab48a2bc0b54d1781b5f64e88104af67a736",
+      "Name": "Ramuh",
+      "Expansion": "Shadowbringers",
+      "Fight": "Eden's Verse: Refulgence (Savage)",
+      "Content": "Savage 2"
+    },
+    {
       "ID": "a7af0f88b093540bbe311c4892398763a90d0771",
       "Name": "Gobwalker",
       "Expansion": "Heavensward",
@@ -97,6 +111,13 @@
       "Expansion": "Stormblood",
       "Fight": "EX6 - Hells' Kier (Extreme)",
       "Content": "EX6"
+    },
+    {
+      "ID": "e01f10ad7f8ecfbce248991e8f22b7ca4d84cbbc",
+      "Name": "Hallowed Kamuy",
+      "Expansion": "Stormblood",
+      "Fight": "EX7 - The Wreath of Snakes (Extreme)",
+      "Content": "EX7"
     },
     {
       "ID": "384e0c1ac94b27675beb7e42f68fdc21fbb1f77b",
